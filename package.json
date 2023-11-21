@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": ""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "parcel": "^2.10.3"
-  }
+  "license": "ISC"
 }
