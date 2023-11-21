@@ -1,4 +1,4 @@
-5888
+5893
 74C:\Users\alexa\Desktop\CV_Project\src\node_modules\domutils\lib\index.d.ts133449872685236842 0
 78C:\Users\alexa\Desktop\CV_Project\src\node_modules\mdn-data\css\selectors.json133449872685834052 0
 79C:\Users\alexa\Desktop\CV_Project\src\node_modules\timsort\build\timsort.min.js133449872681268424 0
@@ -62,7 +62,7 @@
 88C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\features\css-all.js133449872698512112 0
 78C:\Users\alexa\Desktop\CV_Project\src\node_modules\cosmiconfig\dist\index.d.ts133449872687831873 0
 82C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\regions\AL.js133449872684217006 0
-42C:\Users\alexa\Desktop\CV_Project\src\dist133450580636862047 1
+42C:\Users\alexa\Desktop\CV_Project\src\dist133450588560823120 1
 73C:\Users\alexa\Desktop\CV_Project\src\node_modules\mdn-data\l10n\index.js133449872678037782 0
 100C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js133449872695025907 0
 80C:\Users\alexa\Desktop\CV_Project\src\node_modules\msgpackr-extract\package.json133449872679998480 0
@@ -3337,6 +3337,7 @@
 86C:\Users\alexa\Desktop\CV_Project\src\node_modules\css-tree\cjs\syntax\atrule\nest.cjs133449872693113290 0
 83C:\Users\alexa\Desktop\CV_Project\src\node_modules\@swc\helpers\src\_instanceof.mjs133449872726750026 0
 86C:\Users\alexa\Desktop\CV_Project\src\node_modules\css-tree\cjs\syntax\atrule\page.cjs133449872693330558 0
+65C:\Users\alexa\Desktop\CV_Project\src\dist\index2.fbb3188c.js.map133450588560813252 0
 90C:\Users\alexa\Desktop\CV_Project\src\node_modules\css-tree\cjs\syntax\atrule\supports.cjs133449872696513405 0
 81C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\runtime-js\lib\helpers133449872700668951 1
 95C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\utils\src\replaceBundleReferences.js133449872722794041 0
@@ -3888,6 +3889,7 @@
 82C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\regions\NR.js133449872731840919 0
 94C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\features\localecompare.js133449872729527504 0
 82C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\regions\NU.js133449872731840919 0
+66C:\Users\alexa\Desktop\CV_Project\src\dist\index2.47ca9330.css.map133450588560259124 0
 82C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\regions\NZ.js133449872731840919 0
 98C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\features\deviceorientation.js133449872716385697 0
 82C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\regions\OM.js133449872732246818 0
@@ -4066,7 +4068,7 @@
 94C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\workers\lib\process\ProcessChild.js133449872696513405 0
 80C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\utils\src\Deferred.js133449872717994702 0
 97C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\features\css-not-sel-list.js133449872707852680 0
-106C:\Users\alexa\Desktop\CV_Project\src\dist\1564528_fly_messager_send_communication_email_icon.d247e6cd.png133450566911429159 0
+106C:\Users\alexa\Desktop\CV_Project\src\dist\1564528_fly_messager_send_communication_email_icon.d247e6cd.png133450588560211765 0
 73C:\Users\alexa\Desktop\CV_Project\src\node_modules\callsites\package.json133449872674976882 0
 100C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\features\css-optional-pseudo.js133449872708016639 0
 100C:\Users\alexa\Desktop\CV_Project\src\node_modules\caniuse-lite\data\features\css-overflow-anchor.js133449872708016639 0
@@ -4361,7 +4363,7 @@
 71C:\Users\alexa\Desktop\CV_Project\src\node_modules\browserslist\node.js133449872687563980 0
 61C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\fs133449872718354468 1
 84C:\Users\alexa\Desktop\CV_Project\src\node_modules\@swc\helpers\cjs\_export_star.cjs133449872691674322 0
-63C:\Users\alexa\Desktop\CV_Project\src\dist\Capture.9b5ea81b.jpg133450566912103692 0
+63C:\Users\alexa\Desktop\CV_Project\src\dist\Capture.9b5ea81b.jpg133450588560550218 0
 73C:\Users\alexa\Desktop\CV_Project\src\node_modules\browserslist\README.md133449872687981698 0
 70C:\Users\alexa\Desktop\CV_Project\src\node_modules\braces\CHANGELOG.md133449872676002950 0
 66C:\Users\alexa\Desktop\CV_Project\src\node_modules\braces\index.js133449872676994578 0
@@ -5183,6 +5185,7 @@
 111C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\jsAPI.d.ts133449872724005346 0
 109C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\jsAPI.js133449872719515120 0
 109C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\tools.js133449872723702776 0
+54C:\Users\alexa\Desktop\CV_Project\src\dist\index2.html133450588560550218 0
 111C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\coa.js133449872717855743 0
 112C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\optimizer-svgo\node_modules\svgo\dist\svgo.browser.js133449872723512387 0
 99C:\Users\alexa\Desktop\CV_Project\src\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\api133449872717522937 1
@@ -5874,16 +5877,18 @@
 82C:\Users\alexa\Desktop\CV_Project\src\node_modules\.bin\update-browserslist-db.ps1133449872748347212 0
 48C:\Users\alexa\Desktop\CV_Project\src\js\main.js133449866241461782 0
 69C:\Users\alexa\Desktop\CV_Project\src\dist\1634301756841.b0a7e420.jpg133450282968124184 0
-99C:\Users\alexa\Desktop\CV_Project\src\dist\4550857_email_gmail_mail_sending_yahoo_icon.b013410d.png133450566911429159 0
+99C:\Users\alexa\Desktop\CV_Project\src\dist\4550857_email_gmail_mail_sending_yahoo_icon.b013410d.png133450588560222017 0
 108C:\Users\alexa\Desktop\CV_Project\src\assets\5279111_network_fb_social media_facebook_facebook_logo_icon.png133450544335491512 0
 115C:\Users\alexa\Desktop\CV_Project\src\dist\5279111_network_fb_social media_facebook_facebook logo_icon.4c7b2e74.png133450566912113668 0
-115C:\Users\alexa\Desktop\CV_Project\src\dist\5279111_network_fb_social media_facebook_facebook_logo_icon.f9275b17.png133450580636658887 0
-114C:\Users\alexa\Desktop\CV_Project\src\dist\5279114_linkedin_network_social network_linkedin_logo_icon.a4e2ef31.png133450580636195955 0
-106C:\Users\alexa\Desktop\CV_Project\src\dist\5402372_save_arrow_navigation_download_import_icon.83e68de4.png133450566912113668 0
+115C:\Users\alexa\Desktop\CV_Project\src\dist\5279111_network_fb_social media_facebook_facebook_logo_icon.f9275b17.png133450588560426104 0
+114C:\Users\alexa\Desktop\CV_Project\src\dist\5279114_linkedin_network_social network_linkedin_logo_icon.a4e2ef31.png133450588560222017 0
+106C:\Users\alexa\Desktop\CV_Project\src\dist\5402372_save_arrow_navigation_download_import_icon.83e68de4.png133450588560550218 0
 61C:\Users\alexa\Desktop\CV_Project\src\dist\index.47ca9330.css133450566911469426 0
 65C:\Users\alexa\Desktop\CV_Project\src\dist\index.47ca9330.css.map133450566911518898 0
 60C:\Users\alexa\Desktop\CV_Project\src\dist\index.fbb3188c.js133450566912223387 0
 64C:\Users\alexa\Desktop\CV_Project\src\dist\index.fbb3188c.js.map133450566912258335 0
 53C:\Users\alexa\Desktop\CV_Project\src\dist\index.html133450580636862047 0
+62C:\Users\alexa\Desktop\CV_Project\src\dist\index2.47ca9330.css133450588560190771 0
+61C:\Users\alexa\Desktop\CV_Project\src\dist\index2.fbb3188c.js133450588560783554 0
 50C:\Users\alexa\Desktop\CV_Project\src\css\main.css133450564371058842 0
 92C:\Users\alexa\Desktop\CV_Project\src\assets\4550857_email_gmail_mail_sending_yahoo_icon.png133450537233595858 0
