@@ -1,0 +1,9 @@
+8
+44C:\Users\alexa\Desktop\CV_Project\src\assets133449809423581914 1
+62C:\Users\alexa\Desktop\CV_Project\src\assets\1634301756841.jpg133432404423457410 0
+40C:\Users\alexa\Desktop\CV_Project\src\js133449776876875154 1
+41C:\Users\alexa\Desktop\CV_Project\src\css133449773419704399 1
+48C:\Users\alexa\Desktop\CV_Project\src\index.html133449866224557008 0
+50C:\Users\alexa\Desktop\CV_Project\src\package.json133449871020897979 0
+50C:\Users\alexa\Desktop\CV_Project\src\css\main.css133449866281059228 0
+48C:\Users\alexa\Desktop\CV_Project\src\js\main.js133449866241461782 0
