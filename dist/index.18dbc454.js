@@ -576,7 +576,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"1SICI":[function(require,module,exports) {
 function downloadCV() {
-    var githubUrl = "";
+    var githubUrl = "https://github.com/AJinaEugen/newCV/blob/master/src/assets/Alexandru%20Jina%20CV%202023.pdf";
     var a = document.createElement("a");
     a.href = githubUrl;
     a.download = "Alex_Jina.pdf"; // You can set the desired filename here
