@@ -575,7 +575,16 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
-console.log("tests");
+function downloadCV() {
+    var githubUrl = "";
+    var a = document.createElement("a");
+    a.href = githubUrl;
+    a.download = "Alex_Jina.pdf"; // You can set the desired filename here
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+document.getElementById("download").addEventListener("click", downloadCV);
 
 },{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
 

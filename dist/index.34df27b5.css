@@ -58,7 +58,6 @@ a {
 
 .home_container_grid {
   grid-template-columns: 20% 60% 20%;
-  gap: 10px;
   width: 100%;
   display: grid;
 }
