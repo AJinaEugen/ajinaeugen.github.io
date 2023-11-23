@@ -1,6 +1,6 @@
 function downloadCV() {
   var githubUrl =
-    "https://github.com/AJinaEugen/newCV/blob/master/src/assets/Alexandru%20Jina%20CV%202023.pdf";
+    "https://github.com/AJinaEugen/newCV/releases/download/draft/Alexandru.Jina.CV.2023.pdf";
 
   var a = document.createElement("a");
   a.href = githubUrl;
