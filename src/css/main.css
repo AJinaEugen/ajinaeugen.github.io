@@ -18,6 +18,7 @@ header {
 
 nav {
   display: flex;
+
   max-width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -41,10 +42,15 @@ a {
 .nav_list_grid {
   list-style-type: none;
   margin-left: auto;
+  position: absolute;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   right: 10px;
+  position: fixed;
+  background-color: #80bff7;
+  padding: 10px;
+  border-radius: 90;
 }
 
 .nav_item {

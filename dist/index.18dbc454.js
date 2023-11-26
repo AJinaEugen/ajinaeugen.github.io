@@ -575,6 +575,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
+function $(element) {
+    return document.querySelector(element);
+}
 function downloadCV() {
     var githubUrl = "https://github.com/AJinaEugen/newCV/releases/download/draft/Alexandru.Jina.CV.2023.pdf";
     var a = document.createElement("a");
@@ -585,6 +588,16 @@ function downloadCV() {
     document.body.removeChild(a);
 }
 document.getElementById("download").addEventListener("click", downloadCV);
+function smoothSCrollTo() {
+    $("#grid").addEventListener("click", (e)=>{
+        console.log(e.target.innerText);
+        $(`#${e.target.innerText}`).scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+    });
+}
+smoothSCrollTo();
 
 },{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
 

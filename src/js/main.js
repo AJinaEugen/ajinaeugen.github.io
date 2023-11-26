@@ -1,3 +1,7 @@
+function $(element) {
+  return document.querySelector(element);
+}
+
 function downloadCV() {
   var githubUrl =
     "https://github.com/AJinaEugen/newCV/releases/download/draft/Alexandru.Jina.CV.2023.pdf";
@@ -13,3 +17,15 @@ function downloadCV() {
 }
 
 document.getElementById("download").addEventListener("click", downloadCV);
+
+function smoothSCrollTo() {
+  $("#grid").addEventListener("click", (e) => {
+    console.log(e.target.innerText);
+    $(`#${e.target.innerText}`).scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  });
+}
+
+smoothSCrollTo();

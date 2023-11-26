@@ -42,11 +42,15 @@ a {
 }
 
 .nav_list_grid {
+  background-color: #80bff7;
+  border-radius: 90px;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   margin-left: auto;
+  padding: 10px;
   list-style-type: none;
   display: grid;
+  position: fixed;
   right: 10px;
 }
 
