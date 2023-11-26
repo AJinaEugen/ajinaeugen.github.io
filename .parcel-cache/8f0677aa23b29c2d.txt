@@ -3,15 +3,15 @@
 43C:\Users\alexa\Desktop\cvWork\newCV\.github133450749138779109 1
 58C:\Users\alexa\Desktop\cvWork\newCV\src\assets\Capture.jpg133450730435336332 0
 48C:\Users\alexa\Desktop\cvWork\newCV\package.json133452458297687769 0
-58C:\Users\alexa\Desktop\cvWork\newCV\dist\index.18dbc454.js133454723682492717 0
+58C:\Users\alexa\Desktop\cvWork\newCV\dist\index.18dbc454.js133454729804171267 0
 53C:\Users\alexa\Desktop\cvWork\newCV\package-lock.json133450730435575027 0
-63C:\Users\alexa\Desktop\cvWork\newCV\dist\index.34df27b5.css.map133454728535192917 0
+63C:\Users\alexa\Desktop\cvWork\newCV\dist\index.34df27b5.css.map133454729803981777 0
 59C:\Users\alexa\Desktop\cvWork\newCV\src\assets\download.png133450730435346300 0
-40C:\Users\alexa\Desktop\cvWork\newCV\dist133454728755939123 1
+40C:\Users\alexa\Desktop\cvWork\newCV\dist133454731701109215 1
 48C:\Users\alexa\Desktop\cvWork\newCV\node_modules133450730435564622 1
 39C:\Users\alexa\Desktop\cvWork\newCV\src133454723682580865 1
 46C:\Users\alexa\Desktop\cvWork\newCV\src\assets133452487131075073 1
-50C:\Users\alexa\Desktop\cvWork\newCV\src\index.html133454727114683386 0
+50C:\Users\alexa\Desktop\cvWork\newCV\src\index.html133454730385031546 0
 42C:\Users\alexa\Desktop\cvWork\newCV\src\js133450730435549941 1
 52C:\Users\alexa\Desktop\cvWork\newCV\src\css\main.css133454728608536475 0
 50C:\Users\alexa\Desktop\cvWork\newCV\src\js\main.js133452497769784464 0
@@ -22,14 +22,14 @@
 73C:\Users\alexa\Desktop\cvWork\newCV\src\assets\Alexandru_Jina_CV_2023.pdf133424396026637097 0
 59C:\Users\alexa\Desktop\cvWork\newCV\src\assets\linkedin.png133450730435346300 0
 67C:\Users\alexa\Desktop\cvWork\newCV\node_modules\.package-lock.json133450730435564622 0
-104C:\Users\alexa\Desktop\cvWork\newCV\dist\1564528_fly_messager_send_communication_email_icon.d20fe8d8.png133454723682462773 0
+104C:\Users\alexa\Desktop\cvWork\newCV\dist\1564528_fly_messager_send_communication_email_icon.d20fe8d8.png133454729803931912 0
 53C:\Users\alexa\Desktop\cvWork\newCV\.github\workflows133450749138800245 1
-97C:\Users\alexa\Desktop\cvWork\newCV\dist\4550857_email_gmail_mail_sending_yahoo_icon.87a5f32b.png133454723682472880 0
-113C:\Users\alexa\Desktop\cvWork\newCV\dist\5279111_network_fb_social media_facebook_facebook_logo_icon.c39dd4c1.png133454723682472880 0
-61C:\Users\alexa\Desktop\cvWork\newCV\dist\Capture.34720c50.jpg133454723682482722 0
-62C:\Users\alexa\Desktop\cvWork\newCV\dist\download.2683995c.png133454723682492717 0
-62C:\Users\alexa\Desktop\cvWork\newCV\dist\index.18dbc454.js.map133454723682502683 0
-59C:\Users\alexa\Desktop\cvWork\newCV\dist\index.34df27b5.css133454728535163004 0
+97C:\Users\alexa\Desktop\cvWork\newCV\dist\4550857_email_gmail_mail_sending_yahoo_icon.87a5f32b.png133454729803921952 0
+113C:\Users\alexa\Desktop\cvWork\newCV\dist\5279111_network_fb_social media_facebook_facebook_logo_icon.c39dd4c1.png133454729804081525 0
+61C:\Users\alexa\Desktop\cvWork\newCV\dist\Capture.34720c50.jpg133454729804071537 0
+62C:\Users\alexa\Desktop\cvWork\newCV\dist\download.2683995c.png133454729804081525 0
+62C:\Users\alexa\Desktop\cvWork\newCV\dist\index.18dbc454.js.map133454729804211165 0
+59C:\Users\alexa\Desktop\cvWork\newCV\dist\index.34df27b5.css133454729803882078 0
 64C:\Users\alexa\Desktop\cvWork\newCV\.github\workflows\static.yml133450749138800245 0
-51C:\Users\alexa\Desktop\cvWork\newCV\dist\index.html133454728755929524 0
-62C:\Users\alexa\Desktop\cvWork\newCV\dist\linkedin.31919034.png133454723682550922 0
+51C:\Users\alexa\Desktop\cvWork\newCV\dist\index.html133454731701099520 0
+62C:\Users\alexa\Desktop\cvWork\newCV\dist\linkedin.31919034.png133454729803931912 0
