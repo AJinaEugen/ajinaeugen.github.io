@@ -169,3 +169,16 @@ a {
   display: grid;
   grid-template-columns: 20% 60% 20%;
 }
+
+.about {
+  margin-left: 15%;
+  text-align: justify;
+  font-size: 22px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.about > h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}

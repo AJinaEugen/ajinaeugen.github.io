@@ -163,4 +163,17 @@ a {
   display: grid;
 }
 
+.about {
+  text-align: justify;
+  word-spacing: normal;
+  letter-spacing: normal;
+  margin-left: 15%;
+  font-size: 22px;
+}
+
+.about > h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
 /*# sourceMappingURL=index.34df27b5.css.map */
