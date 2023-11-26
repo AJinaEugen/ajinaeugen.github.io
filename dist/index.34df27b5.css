@@ -133,6 +133,7 @@ a {
   background-color: #80bff7;
   border-radius: 40px;
   width: 100%;
+  max-width: max-content;
   margin-left: 10%;
   padding: 15px;
   font-size: 20px;

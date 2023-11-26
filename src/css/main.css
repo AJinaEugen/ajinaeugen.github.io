@@ -138,6 +138,7 @@ a {
   text-align: center;
   margin-left: 10%;
   width: 100%;
+  max-width: max-content;
   cursor: pointer;
   background-color: rgb(128, 191, 247);
   border-radius: 40px;
