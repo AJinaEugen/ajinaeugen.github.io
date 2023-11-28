@@ -3,6 +3,7 @@
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  scroll-margin-block: 0;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 header {
-  z-index: 1;
+  z-index: 3;
   background-color: #f3f1ee;
   border-bottom: 2px solid #000;
   width: 100%;
@@ -49,7 +50,7 @@ a {
 }
 
 .nav_list_grid {
-  z-index: 1;
+  z-index: 2;
   background-color: #80bff7;
   border-radius: 90px;
   flex: 2;
@@ -189,6 +190,82 @@ a {
 
 .about > h1 {
   margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.jobs {
+  grid-template-columns: 20% 60% 20%;
+  display: grid;
+}
+
+#list_jobs {
+  text-align: justify;
+  word-spacing: normal;
+  letter-spacing: normal;
+  grid-column: 2;
+  margin-bottom: 5%;
+  margin-left: 50%;
+  padding-left: 1.6%;
+  font-size: 22px;
+  list-style-type: none;
+}
+
+#list_jobs, p {
+  padding-bottom: 5px;
+}
+
+.bunch {
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.position {
+  font: bold;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2%;
+  font-size: 30px;
+  display: flex;
+  position: relative;
+}
+
+.desc {
+  width: 50%;
+  font-size: 15px;
+}
+
+.container_journey {
+  flex-direction: row;
+  display: flex;
+}
+
+.circle {
+  z-index: 1;
+  background-color: #faebd7;
+  border: solid #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 5%;
+}
+
+.line {
+  background: #000;
+  width: 5px;
+  height: 120%;
+  display: block;
+  position: relative;
+  right: 52%;
+}
+
+.experience__le {
+  grid-column: 2;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 15%;
   font-size: 40px;
 }
 

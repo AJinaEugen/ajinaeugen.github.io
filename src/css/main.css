@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  scroll-margin-block: 0px;
 }
 body {
   width: 100%;
@@ -16,7 +17,7 @@ header {
   position: fixed;
   left: 0;
   border-bottom: #000000 solid 2px;
-  z-index: 1;
+  z-index: 3;
   background-color: rgb(243, 241, 238);
 }
 
@@ -58,7 +59,7 @@ a {
   background-color: #80bff7;
   padding: 10px;
   border-radius: 90;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav_item {
@@ -198,4 +199,82 @@ a {
 .about > h1 {
   margin-bottom: 20px;
   font-size: 40px;
+}
+
+.jobs {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+#list_jobs {
+  list-style-type: none;
+  grid-column: 2;
+  margin-left: 50%;
+  text-align: justify;
+  font-size: 22px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  padding-left: 1.6%;
+  margin-bottom: 5%;
+}
+
+#list_jobs,
+p {
+  padding-bottom: 5px;
+}
+
+.bunch {
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.position {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-top: 2%;
+  font: bold;
+  font-size: 30px;
+}
+
+.desc {
+  font-size: 15px;
+  width: 50%;
+}
+
+.container_journey {
+  display: flex;
+  flex-direction: row;
+}
+
+.circle {
+  position: relative;
+  width: 50%;
+  height: 20px;
+  width: 20px;
+  z-index: 1;
+  border-radius: 50%;
+  border: #000000 solid;
+  background-color: antiquewhite;
+  right: 5%;
+}
+
+.line {
+  display: block;
+  width: 5px;
+  background: #000000;
+  position: relative;
+  right: 52%;
+  height: 120%;
+}
+
+.experience__le {
+  margin-top: 10%;
+  margin-left: 15%;
+  grid-column: 2;
+  font-size: 40px;
+  margin-bottom: 10%;
 }

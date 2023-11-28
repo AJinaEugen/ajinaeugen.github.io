@@ -1,3 +1,5 @@
+import { loadExperience } from "./addExperience";
+
 function $(element) {
   return document.querySelector(element);
 }
@@ -34,3 +36,9 @@ $("#redirect").addEventListener("click", (e) => {
 $("#redirectContact").addEventListener("click", (e) => {
   $("#Contact").scrollIntoView();
 });
+
+function addExperience() {
+  $("#list_jobs").innerHTML = loadExperience();
+}
+
+addExperience();

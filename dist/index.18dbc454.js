@@ -575,6 +575,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
+var _addExperience = require("./addExperience");
 function $(element) {
     return document.querySelector(element);
 }
@@ -602,6 +603,67 @@ $("#redirect").addEventListener("click", (e)=>{
 $("#redirectContact").addEventListener("click", (e)=>{
     $("#Contact").scrollIntoView();
 });
+function addExperience() {
+    $("#list_jobs").innerHTML = (0, _addExperience.loadExperience)();
+}
+addExperience();
+
+},{"./addExperience":"cKhoi"}],"cKhoi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadExperience", ()=>loadExperience);
+var _experienceJson = require("../experience.json");
+var _experienceJsonDefault = parcelHelpers.interopDefault(_experienceJson);
+function loadExperience() {
+    let formatHtml = "";
+    formatHtml = (0, _experienceJsonDefault.default).map((entry)=>`<li class="bunch"> 
+
+      <div class ="container_journey">
+      <div class="circle"></div>
+      <div class="line"></div>
+      </div>
+      <div class="place_business">
+    <div class="position"> <p>${entry.Position}</p></div>
+     <div class="Employer"><p>${entry.Employer}</p></div>
+    <div class="Desciption"><p class="desc">${entry.Description}</p></div>
+    <div class="date"><p>${entry.date}</p></div>
+    </li>
+    </div>`);
+    return formatHtml.join("");
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"4FjCx","../experience.json":"aTMDh"}],"4FjCx":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"aTMDh":[function(require,module,exports) {
+module.exports = JSON.parse('[{"Position":"QA engineer","Employer":"Linnify","Description":"A pivotal moment in my career. I learned here most of my hard-skills. Working in a team and growing were amazing benefits.","date":""},{"Position":"Tester","Employer":"QuanticLab","Description":"Lerned to write testcase, run regressions, test runs and report findings.","date":""},{"Position":"Automation course","Employer":"Azimut Vision","Description":"This is wher I learnied how to run my first automation test using Java and Selenim. A lot have changed since then..","date":""}]');
 
 },{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
 
