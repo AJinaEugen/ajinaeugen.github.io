@@ -596,6 +596,9 @@ $("#grid").addEventListener("click", (e)=>{
         inline: "center"
     });
 });
+$("#redirect").addEventListener("click", (e)=>{
+    $("#Contact").scrollIntoView();
+});
 
 },{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
 

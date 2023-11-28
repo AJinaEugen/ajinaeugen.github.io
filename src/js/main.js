@@ -26,3 +26,7 @@ $("#grid").addEventListener("click", (e) => {
     inline: "center",
   });
 });
+
+$("#redirect").addEventListener("click", (e) => {
+  $("#Contact").scrollIntoView();
+});
