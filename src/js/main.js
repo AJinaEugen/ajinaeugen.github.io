@@ -4,7 +4,7 @@ function $(element) {
 
 function downloadCV() {
   var githubUrl =
-    "https://github.com/AJinaEugen/newCV/releases/download/draft/Alexandru.Jina.CV.2023.pdf";
+    "https://github.com/AJinaEugen/newCV/releases/download/draft/QAJInaAlexandru.pdf";
 
   var a = document.createElement("a");
   a.href = githubUrl;

@@ -579,7 +579,7 @@ function $(element) {
     return document.querySelector(element);
 }
 function downloadCV() {
-    var githubUrl = "https://github.com/AJinaEugen/newCV/releases/download/draft/Alexandru.Jina.CV.2023.pdf";
+    var githubUrl = "https://github.com/AJinaEugen/newCV/releases/download/draft/QAJInaAlexandru.pdf";
     var a = document.createElement("a");
     a.href = githubUrl;
     a.download = "Alex_Jina.pdf"; // You can set the desired filename here
