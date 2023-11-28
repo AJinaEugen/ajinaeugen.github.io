@@ -588,16 +588,14 @@ function downloadCV() {
     document.body.removeChild(a);
 }
 document.getElementById("download").addEventListener("click", downloadCV);
-function smoothSCrollTo() {
-    $("#grid").addEventListener("click", (e)=>{
-        console.log(e.target.innerText);
-        $(`#${e.target.innerText}`).scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-        });
+$("#grid").addEventListener("click", (e)=>{
+    console.log(e.target.innerText);
+    $(`#${e.target.innerText}`).scrollIntoView({
+        block: "start",
+        behavior: "smooth",
+        inline: "center"
     });
-}
-smoothSCrollTo();
+});
 
 },{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
 

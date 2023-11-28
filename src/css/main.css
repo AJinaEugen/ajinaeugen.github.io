@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 body {
   width: 100%;
@@ -51,6 +52,7 @@ a {
   background-color: #80bff7;
   padding: 10px;
   border-radius: 90;
+  z-index: 1;
 }
 
 .nav_item {
@@ -63,6 +65,7 @@ a {
   width: 100%;
   display: grid;
   grid-template-columns: 20% 60% 20%;
+  overflow: auto;
 }
 
 .social,
@@ -182,6 +185,7 @@ a {
   font-size: 22px;
   word-spacing: normal;
   letter-spacing: normal;
+  grid-column: 2;
 }
 
 .about > h1 {
