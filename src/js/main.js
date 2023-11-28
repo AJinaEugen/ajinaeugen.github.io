@@ -30,3 +30,7 @@ $("#grid").addEventListener("click", (e) => {
 $("#redirect").addEventListener("click", (e) => {
   $("#Contact").scrollIntoView();
 });
+
+$("#redirectContact").addEventListener("click", (e) => {
+  $("#Contact").scrollIntoView();
+});
