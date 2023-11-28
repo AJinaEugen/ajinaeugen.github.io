@@ -7,11 +7,11 @@
 53C:\Users\alexa\Desktop\cvWork\newCV\package-lock.json133450730435575027 0
 63C:\Users\alexa\Desktop\cvWork\newCV\dist\index.34df27b5.css.map133456369327513450 0
 59C:\Users\alexa\Desktop\cvWork\newCV\src\assets\download.png133450730435346300 0
-40C:\Users\alexa\Desktop\cvWork\newCV\dist133456377011979701 1
+40C:\Users\alexa\Desktop\cvWork\newCV\dist133456378961782761 1
 48C:\Users\alexa\Desktop\cvWork\newCV\node_modules133450730435564622 1
 39C:\Users\alexa\Desktop\cvWork\newCV\src133455869548062185 1
 46C:\Users\alexa\Desktop\cvWork\newCV\src\assets133452487131075073 1
-50C:\Users\alexa\Desktop\cvWork\newCV\src\index.html133456376850854772 0
+50C:\Users\alexa\Desktop\cvWork\newCV\src\index.html133456378482601725 0
 42C:\Users\alexa\Desktop\cvWork\newCV\src\js133455869548072201 1
 52C:\Users\alexa\Desktop\cvWork\newCV\src\css\main.css133456371240375431 0
 50C:\Users\alexa\Desktop\cvWork\newCV\src\js\main.js133456376862925155 0
@@ -32,5 +32,5 @@
 71C:\Users\alexa\Desktop\cvWork\newCV\dist\index.18dbc454.js.map.38760.14133456352293567359 0
 59C:\Users\alexa\Desktop\cvWork\newCV\dist\index.34df27b5.css133456369327422822 0
 64C:\Users\alexa\Desktop\cvWork\newCV\.github\workflows\static.yml133450749138800245 0
-51C:\Users\alexa\Desktop\cvWork\newCV\dist\index.html133456377011934725 0
+51C:\Users\alexa\Desktop\cvWork\newCV\dist\index.html133456378961738865 0
 62C:\Users\alexa\Desktop\cvWork\newCV\dist\linkedin.31919034.png133456366642057733 0
