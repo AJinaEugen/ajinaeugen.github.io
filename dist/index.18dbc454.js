@@ -632,7 +632,10 @@ function loadExperience() {
     return formatHtml.join("");
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"4FjCx","../experience.json":"aTMDh"}],"4FjCx":[function(require,module,exports) {
+},{"../experience.json":"aTMDh","@parcel/transformer-js/src/esmodule-helpers.js":"4FjCx"}],"aTMDh":[function(require,module,exports) {
+module.exports = JSON.parse('[{"Position":"QA engineer","Employer":"Linnify","Description":"A pivotal moment in my career. I learned here most of my hard-skills. Working in a team and growing were amazing benefits.","date":""},{"Position":"Tester","Employer":"QuanticLab","Description":"Lerned to write testcase, run regressions, test runs and report findings.","date":""},{"Position":"Automation course","Employer":"Azimut Vision","Description":"This is wher I learnied how to run my first automation test using Java and Selenim. A lot have changed since then..","date":""}]');
+
+},{}],"4FjCx":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -661,9 +664,6 @@ exports.export = function(dest, destName, get) {
         get: get
     });
 };
-
-},{}],"aTMDh":[function(require,module,exports) {
-module.exports = JSON.parse('[{"Position":"QA engineer","Employer":"Linnify","Description":"A pivotal moment in my career. I learned here most of my hard-skills. Working in a team and growing were amazing benefits.","date":""},{"Position":"Tester","Employer":"QuanticLab","Description":"Lerned to write testcase, run regressions, test runs and report findings.","date":""},{"Position":"Automation course","Employer":"Azimut Vision","Description":"This is wher I learnied how to run my first automation test using Java and Selenim. A lot have changed since then..","date":""}]');
 
 },{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
 
