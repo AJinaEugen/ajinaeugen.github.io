@@ -233,9 +233,10 @@ p {
   display: flex;
   position: relative;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
+  align-content: start;
   position: relative;
-  padding-top: 2%;
+
   font: bold;
   font-size: 30px;
 }
