@@ -279,3 +279,38 @@ p {
   font-size: 40px;
   margin-bottom: 10%;
 }
+
+#list_skills {
+  list-style-type: none;
+  grid-column: 2;
+  margin-left: 20%;
+  text-align: justify;
+  font-size: 22px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  padding-left: 1.6%;
+  margin-bottom: 5%;
+}
+
+#list_skills,
+p {
+  padding-bottom: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.bar {
+  border-radius: 5%;
+  border: solid rgb(124, 189, 124);
+  background-color: rgb(124, 189, 124);
+  width: 10%;
+  height: 10px;
+  margin: 5px;
+}
+
+h3 {
+  margin-top: 5%;
+}

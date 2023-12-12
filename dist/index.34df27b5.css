@@ -269,4 +269,38 @@ a {
   font-size: 40px;
 }
 
+#list_skills {
+  text-align: justify;
+  word-spacing: normal;
+  letter-spacing: normal;
+  grid-column: 2;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  padding-left: 1.6%;
+  font-size: 22px;
+  list-style-type: none;
+}
+
+#list_skills, p {
+  padding-bottom: 5px;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+}
+
+.bar {
+  background-color: #7cbd7c;
+  border: solid #7cbd7c;
+  border-radius: 5%;
+  width: 10%;
+  height: 10px;
+  margin: 5px;
+}
+
+h3 {
+  margin-top: 5%;
+}
+
 /*# sourceMappingURL=index.34df27b5.css.map */

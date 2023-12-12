@@ -576,6 +576,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"1SICI":[function(require,module,exports) {
 var _addExperience = require("./addExperience");
+var _addSkills = require("./addSkills");
 function $(element) {
     return document.querySelector(element);
 }
@@ -606,9 +607,18 @@ $("#redirectContact").addEventListener("click", (e)=>{
 function addExperience() {
     $("#list_jobs").innerHTML = (0, _addExperience.loadExperience)();
 }
+function addRating() {
+    $("#bars").innerHTML = (0, _addSkills.loadRating)();
+}
+function addSkills() {
+    (0, _addSkills.lod)().then((loaded)=>{
+        $("#list_skills").innerHTML = loaded;
+    });
+}
 addExperience();
+addSkills();
 
-},{"./addExperience":"cKhoi"}],"cKhoi":[function(require,module,exports) {
+},{"./addExperience":"cKhoi","./addSkills":"2FmCC"}],"cKhoi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "loadExperience", ()=>loadExperience);
@@ -627,8 +637,9 @@ function loadExperience() {
      <div class="Employer"><p>${entry.Employer}</p></div>
     <div class="Desciption"><p class="desc">${entry.Description}</p></div>
     <div class="date"><p>${entry.date}</p></div>
+    </div>
     </li>
-    </div>`);
+    `);
     return formatHtml.join("");
 }
 
@@ -664,6 +675,41 @@ exports.export = function(dest, destName, get) {
         get: get
     });
 };
+
+},{}],"2FmCC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadSkills", ()=>loadSkills);
+parcelHelpers.export(exports, "loadRating", ()=>loadRating);
+parcelHelpers.export(exports, "lod", ()=>lod);
+var _skillsJson = require("../skills.json");
+var _skillsJsonDefault = parcelHelpers.interopDefault(_skillsJson);
+function loadRating(x) {
+    let formatHtml = [];
+    for(let i = 0; i < x; i++)formatHtml += `<div class="bar"></div>`;
+    return formatHtml;
+}
+function loadSkills() {
+    let formatHtml = "";
+    formatHtml = (0, _skillsJsonDefault.default).map((entry)=>`<li>
+            <h3>${entry.Skill}</h3>
+            <br />
+            <p>${entry.Description}</p>
+            <div class="row" id="bars">
+              ${loadRating(entry.Rating)}
+                
+            </div>
+          </li>`);
+    return formatHtml.join("");
+}
+function lod() {
+    return new Promise((resolve, reject)=>{
+        resolve(loadSkills());
+    });
+}
+
+},{"../skills.json":"fKmLW","@parcel/transformer-js/src/esmodule-helpers.js":"4FjCx"}],"fKmLW":[function(require,module,exports) {
+module.exports = JSON.parse('[{"Skill":"JavaScript","Description":"Web programming language for interactive and dynamic content on the client side.","Rating":7},{"Skill":"Cypress","Description":"JavaScript-based end-to-end testing framework for web applications.","Rating":8},{"Skill":"Manual Testing","Description":"Human-driven testing process where testers execute tests without automation tools, assessing software functionality, usability, and other aspects.","Rating":9},{"Skill":"Postman API Testing","Description":"Aiding in creating, executing, and automating requests to validate responses and assess performance.","Rating":4},{"Skill":"Communication","Description":"Effective collaboration between Quality Assurance (QA) professionals, development teams, and other stakeholders to ensure clear understanding, efficient issue resolution, and seamless progress in the software testing process.","Rating":8}]');
 
 },{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
 

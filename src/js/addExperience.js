@@ -16,8 +16,9 @@ function loadExperience() {
      <div class="Employer"><p>${entry.Employer}</p></div>
     <div class="Desciption"><p class="desc">${entry.Description}</p></div>
     <div class="date"><p>${entry.date}</p></div>
+    </div>
     </li>
-    </div>`
+    `
   );
 
   return formatHtml.join("");

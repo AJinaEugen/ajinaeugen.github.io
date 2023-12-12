@@ -1,4 +1,5 @@
 import { loadExperience } from "./addExperience";
+import { loadRating, loadSkills, lod } from "./addSkills";
 
 function $(element) {
   return document.querySelector(element);
@@ -41,4 +42,15 @@ function addExperience() {
   $("#list_jobs").innerHTML = loadExperience();
 }
 
+function addRating() {
+  $("#bars").innerHTML = loadRating();
+}
+
+function addSkills() {
+  lod().then((loaded) => {
+    $("#list_skills").innerHTML = loaded;
+  });
+}
+
 addExperience();
+addSkills();

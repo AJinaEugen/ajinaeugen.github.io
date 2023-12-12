@@ -1,0 +1,28 @@
+[
+  {
+    "Skill": "JavaScript",
+    "Description": "Web programming language for interactive and dynamic content on the client side.",
+    "Rating": 7
+  },
+  {
+    "Skill": "Cypress",
+    "Description": "JavaScript-based end-to-end testing framework for web applications.",
+    "Rating": 8
+  },
+  {
+    "Skill": "Manual Testing",
+    "Description": "Human-driven testing process where testers execute tests without automation tools, assessing software functionality, usability, and other aspects.",
+    "Rating": 9
+  },
+  {
+    "Skill": "Postman API Testing",
+    "Description": "Aiding in creating, executing, and automating requests to validate responses and assess performance.",
+    "Rating": 4
+  },
+
+  {
+    "Skill": "Communication",
+    "Description": "Effective collaboration between Quality Assurance (QA) professionals, development teams, and other stakeholders to ensure clear understanding, efficient issue resolution, and seamless progress in the software testing process.",
+    "Rating": 8
+  }
+]
