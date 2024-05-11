@@ -54,3 +54,7 @@ function addSkills() {
 
 addExperience();
 addSkills();
+
+//Run npm run bundle and run live server on the dist indexHtmlDirectory -> opens up a browser where you can see ongoing changes
+// On release :npm run start and push to github. Local server will show a wrong page but, the correct data is pushed to GithubPages for view
+//
