@@ -137,10 +137,15 @@ h1 {
   display: flex;
   flex-direction: column;
   flex: 3;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-fit: contain;
 }
 
 .controlImages {
   border-radius: 20px;
+  max-width: 100%;
 }
 
 .img-text {
@@ -201,7 +206,7 @@ h1 {
 /* media css*/
 
 /* media css*/
-@media (max-width: 800px) {
+@media (max-width: 821) {
   /* Adjust breakpoint as needed */
 
   .container {
@@ -210,7 +215,7 @@ h1 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    color: rgb(11, 11, 11);
+    color: rgb(177, 0, 0);
     font-size: 2vh;
   }
 
@@ -260,7 +265,14 @@ h1 {
   .controlImages {
     position: static;
     z-index: 4;
+    max-height: 100%;
+    max-width: 100%;
   }
+
+  .forward {
+    height: 90%;
+  }
+
   .back {
     opacity: 1;
     flex: 0.5;
@@ -301,31 +313,213 @@ h1 {
   }
 }
 
-/*  useless */
-
-@media (min-width: 800) {
+@media (max-width: 400) {
   /* Adjust breakpoint as needed */
+
   .container {
     margin-left: auto;
     align-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    color: rgb(24, 197, 36);
+    font-size: 2vh;
   }
 
-  .main-menu-button {
-    font-size: 4vh;
+  .contactModal {
+    display: none;
+    position: absolute;
+    z-index: 0;
+
+    height: 50vh;
+    width: 80vh;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optionally, you can add additional styling */
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+  }
+
+  .imagesModal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    height: 50%;
+    width: 50vh;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optionally, you can add additional styling */
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+  }
+
+  .imageshow {
+    position: static;
+
+    border-radius: 30px;
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+
+    flex: 5;
+  }
+
+  .controlImages {
+    position: static;
+    z-index: 4;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .back {
+    opacity: 1;
+    flex: 0.5;
+    width: 100%;
+    height: 100%;
+  }
+  .backButton {
+    flex: 1;
+    align-content: center;
+    align-items: center;
+    height: 80%;
+  }
+
+  .forward {
+    height: 90%;
+  }
+  .contactInfo {
+    position: absolute;
+    right: 5vh;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
   .pagetitle {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 10vh;
     background-color: rgb(250, 176, 246);
-
     opacity: 0.6;
   }
 
   .titletext {
+    position: static;
     align-content: center;
     padding-right: 20vh;
+    margin-right: auto;
+    box-sizing: content-box;
+    width: 20%;
   }
 }
+
+@media screen and (max-width: 1220) {
+  /* Adjust breakpoint as needed */
+
+  .container {
+    margin-left: auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(103, 11, 209);
+    font-size: 2vh;
+  }
+
+  .contactModal {
+    display: none;
+    position: absolute;
+    z-index: 0;
+
+    height: 50vh;
+    width: 80vh;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optionally, you can add additional styling */
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+  }
+
+  .imagesModal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    height: 50%;
+    width: 50vh;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optionally, you can add additional styling */
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+  }
+
+  .imageshow {
+    position: static;
+
+    border-radius: 30px;
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+
+    flex: 5;
+  }
+
+  .controlImages {
+    position: static;
+    z-index: 4;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .back {
+    opacity: 1;
+    flex: 0.5;
+    width: 100%;
+    height: 100%;
+  }
+  .backButton {
+    flex: 1;
+    align-content: center;
+    align-items: center;
+    height: 80%;
+  }
+
+  .forward {
+    height: 90%;
+  }
+  .contactInfo {
+    position: absolute;
+    right: 5vh;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pagetitle {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 10vh;
+    background-color: rgb(250, 176, 246);
+    opacity: 0.6;
+  }
+
+  .titletext {
+    position: static;
+    align-content: center;
+    padding-right: 20vh;
+    margin-right: auto;
+    box-sizing: content-box;
+    width: 20%;
+  }
+}
+/*  useless */
