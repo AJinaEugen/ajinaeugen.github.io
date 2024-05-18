@@ -2,141 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/css/main.css"" />
     <script type="module" src="/src/js/main.js"></script>
-    <title>OanaWantsCake</title>
+    <title>oanawantscake</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/src/assets/strawberry-cake.png"
+    />
   </head>
   <body>
-    <header class="header" id="header">
-      <nav class="nav_container">
-        <a href="#home" class="nav_logo">AJ</a>
-        <div class="nav_menu" id="nave-menu">
-          <ul class="nav_list_grid" id="grid">
-            <li class="nav_item"><a href="#Home">Home</a></li>
-            <li class="nav_item"><a href="#About">About</a></li>
-            <li class="nav_item"><a href="#Exp">Experience</a></li>
-            <li class="nav_item"><a href="#Skills">Skills</a></li>
-            <li class="nav_item"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <div class="baseImageContainer"></div>
+    <div class="container">
+      <div class="filler"></div>
 
-    <section id="Home">
-      <div class="home_container_grid">
-        <div class="social">
-          <ul class="social_icons">
-            <li class="linkedin">
-              <a
-                href="https://www.linkedin.com/in/alexandru-jina-675228217/"
-                target="_blank"
-                ><img src="./assets/linkedin.png"
-              /></a>
-            </li>
-            <li class="facebook">
-              <a href="https://www.facebook.com/jina.alexandru/" target="_blank"
-                ><img
-                  src="assets/5279111_network_fb_social media_facebook_facebook_logo_icon.png"
-              /></a>
-            </li>
-            <li class="email" id="redirect">
-              <a href="#"
-                ><img
-                  src="./assets/4550857_email_gmail_mail_sending_yahoo_icon.png"
-              /></a>
-            </li>
-          </ul>
-        </div>
+      <div class="mainContent">
+        <div class="main-menu-button"><h1>Galeria cu bunătăți</h1></div>
+        <div class="main-menu-button"><h1>Plasează o comandă</h1></div>
+      </div>
 
-        <div class="home_container">
-          <div class="home_social">
-            <h1 class="titlu">
-              Hi,<br />
-              I'm ALEX
+      <div class="showModal">
+        <div class="imagesModal">
+          <div class="imageHolder">
+            <div class="back">
+              <div class="backButton">Back</div>
+            </div>
+            <div class="imageshow">
+              
+              <div class="img-text">Text containting a description of the produce</div>
+            </div>
 
-              <br />
-
-              <h2 class="subtitle">Qa Engineer</h2>
-            </h1>
-
-            <p class="paragraf">
-              Career driven <b>Quality Assurance engineer</b>, looking to become
-              a <b>Full Stack Tester</b>. I am proficient in <b>Cypress</b> and
-              I have experience with <b>API testing</b> in <b> Postman</b>.
-            </p>
-            <div class="home_buttons">
-              <div class="button_downloadcv" id="download">
-                <b class="aligned"
-                  >CV <img class="dow" src="./assets/download.png"
-                /></b>
-              </div>
-              <div class="contact_me" id="redirectContact">
-                <b class="aligned"
-                  >Contact
-                  <img
-                    class="dow"
-                    src="./assets/1564528_fly_messager_send_communication_email_icon.png"
-                    alt=""
-                /></b>
-              </div>
+            <div class="forward">
+             
+              <div class="close">X</div>
+               <div class="nextButton"> Next</div>
+              
             </div>
           </div>
-          <div class="img">
-            <img class="aj_image" src="./assets/Capture.jpg" alt="" />
-          </div>
         </div>
-        <div class="empty"></div>
-      </div>
-    </section>
 
-    <section id="About">
-      <div class="experience">
-        <div class="about" id="About">
-          <h1>About</h1>
-          <p>
-            Have you ever released to production and worried that something
-            might not work right, that you might lose users and product
-            confidence? This is where I come in. I'm an experienced tester and I
-            know how important it is to gain the trust of your users, community
-            and team. The QA position is the gateway to success and I am serious
-            about delivering reliable and valuable information to the
-            development and mangement team so that the end users get the best
-            experience they can.
-          </p>
-        </div>
-      </div>
-    </section>
-    <div class="filler" id="Exp"></div>
 
-    <section>
-      <div class="home_container_grid">
-        <h1 class="experience__le">Experience</h1>
-      </div>
+         <div class="contactModal">
+       <div class="closeContact">X</div>
+       <div class="contactInfoModal">
+       <div class="numar-de-telefon">
+       <h2>WhatsApp: 0770376762</h2>
 
-      <div class="jobs">
-        <ul id="list_jobs"></ul>
-      </div>
-    </section>
-
-    <div class="filler" id="Skills"></div>
-    <section>
-      <div class="home_container_grid">
-        <h1 class="experience__le">Skills</h1>
-      </div>
-
-      <div class="jobs">
-        <ul id="list_skills"></ul>
-      </div>
-    </section>
-
-    <div class="frame" id="Contact">
-      <iframe
+       </div>
+          <div class="frame" id="Contact">
+      <iframe id="scaled-frame"
         src="https://us21.list-manage.com/contact-form?u=c9ce8229995c3bf412e731ca3&form_id=2146978df46b416a35b57478eeea6b5b"
         width="100%"
-        height="1000px"
+        height="100%"
+        zoom="4"
         frameborder="0"
       ></iframe>
+       </div>
+      </div>
+      </div>
+
+      
     </div>
   </body>
 </html>

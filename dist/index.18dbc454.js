@@ -142,15 +142,16 @@
       this[globalName] = mainExports;
     }
   }
-})({"lQxvG":[function(require,module,exports) {
+})({"j2YDk":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
+var HMR_USE_SSE = false;
 module.bundle.HMR_BUNDLE_ID = "0bcb44a518dbc454";
 "use strict";
-/* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
+/* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
   HMRAsset,
   HMRMessage,
@@ -189,6 +190,7 @@ declare var HMR_HOST: string;
 declare var HMR_PORT: string;
 declare var HMR_ENV_HASH: string;
 declare var HMR_SECURE: boolean;
+declare var HMR_USE_SSE: boolean;
 declare var chrome: ExtensionContext;
 declare var browser: ExtensionContext;
 declare var __parcel__import__: (string) => Promise<void>;
@@ -226,9 +228,14 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
     var hostname = getHostname();
     var port = getPort();
-    var protocol = HMR_SECURE || location.protocol == "https:" && !/localhost|127.0.0.1|0.0.0.0/.test(hostname) ? "wss" : "ws";
+    var protocol = HMR_SECURE || location.protocol == "https:" && ![
+        "localhost",
+        "127.0.0.1",
+        "0.0.0.0"
+    ].includes(hostname) ? "wss" : "ws";
     var ws;
-    try {
+    if (HMR_USE_SSE) ws = new EventSource("/__parcel_hmr");
+    else try {
         ws = new WebSocket(protocol + "://" + hostname + (port ? ":" + port : "") + "/");
     } catch (err) {
         if (err.message) console.error(err.message);
@@ -298,12 +305,14 @@ if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
             }
         }
     };
-    ws.onerror = function(e) {
-        if (e.message) console.error(e.message);
-    };
-    ws.onclose = function() {
-        console.warn("[parcel] \uD83D\uDEA8 Connection to the HMR server was lost");
-    };
+    if (ws instanceof WebSocket) {
+        ws.onerror = function(e) {
+            if (e.message) console.error(e.message);
+        };
+        ws.onclose = function() {
+            console.warn("[parcel] \uD83D\uDEA8 Connection to the HMR server was lost");
+        };
+    }
 }
 function removeErrorOverlay() {
     var overlay = document.getElementById(OVERLAY_ID);
@@ -575,80 +584,260 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
-var _addExperience = require("./addExperience");
+var _addImages = require("./addImages");
 var _addSkills = require("./addSkills");
 function $(element) {
-    return document.querySelector(element);
+    return document.querySelectorAll(element);
 }
-function downloadCV() {
-    var githubUrl = "https://github.com/AJinaEugen/newCV/releases/download/draft/QAJInaAlexandru.pdf";
-    var a = document.createElement("a");
-    a.href = githubUrl;
-    a.download = "Alex_Jina.pdf"; // You can set the desired filename here
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-}
-document.getElementById("download").addEventListener("click", downloadCV);
-$("#grid").addEventListener("click", (e)=>{
-    console.log(e.target.innerText);
-    $(`#${e.target.innerText}`).scrollIntoView({
-        block: "start",
-        behavior: "smooth",
-        inline: "center"
+$(".main-menu-button").forEach((button)=>{
+    button.addEventListener("click", (e)=>{
+        console.log(e.target.innerText);
+        if (e.target.innerText === "Galeria cu bun\u0103t\u0103\u021Bi") {
+            console.log("Clicked galerie");
+            showModal();
+        } else {
+            console.log("Clicked contact");
+            showContactModal();
+        }
     });
 });
-$("#redirect").addEventListener("click", (e)=>{
-    $("#Contact").scrollIntoView();
+//Show/CLose Modal section
+function showModal() {
+    //Below 2 lines add the modal
+    // document.querySelector(".showModal").innerHTML = loadImageModal();
+    console.log("Display Show modal");
+    document.querySelector(".imagesModal").style.display = "block";
+//this line adds an event listener for the modal-> the event listener uses the
+//function below
+}
+document.querySelector(".imageshow").innerHTML = (0, _addImages.loadImages)();
+function showContactModal() {
+    //Below 2 lines add the modal
+    document.querySelector(".contactModal").style.display = "block";
+    console.log("Show contact modal");
+//this line adds an event listener for the modal-> the event listener uses the
+//function below
+}
+document.querySelector(".close").addEventListener("click", (e)=>{
+    console.log("closed modal for images");
+    closeShowModal();
 });
-$("#redirectContact").addEventListener("click", (e)=>{
-    $("#Contact").scrollIntoView();
+document.querySelector(".closeContact").addEventListener("click", (e)=>{
+    console.log("closed modal for Contact");
+    closeContactModal();
 });
-function addExperience() {
-    $("#list_jobs").innerHTML = (0, _addExperience.loadExperience)();
+function closeShowModal() {
+    document.querySelector(".imagesModal").style.display = "none";
+    v = 0;
 }
-function addRating() {
-    $("#bars").innerHTML = (0, _addSkills.loadRating)();
+function closeContactModal() {
+    document.querySelector(".contactModal").style.display = "none";
 }
-function addSkills() {
-    (0, _addSkills.lod)().then((loaded)=>{
-        $("#list_skills").innerHTML = loaded;
-    });
+//Control images
+// v = visual index
+let v = 0;
+document.querySelector(".nextButton").addEventListener("click", (e)=>{
+    let images = $(".controlImages");
+    nextPicture(images);
+    console.log("clicked next img  ", v);
+});
+document.querySelector(".backButton").addEventListener("click", (e)=>{
+    let images = $(".controlImages");
+    previousPicture(images);
+    console.log("clicked back img  ", v);
+});
+function nextPicture(images) {
+    images[v].style.display = "none";
+    if (v < images.length - 1) {
+        v++;
+        images[v].style.display = "block";
+    } else {
+        images[v].style.display = "none";
+        v = 0;
+        images[v].style.display = "block";
+    }
 }
-addExperience();
-addSkills(); //Run npm run bundle and run live server on the dist indexHtmlDirectory -> opens up a browser where you can see ongoing changes
+function previousPicture(images) {
+    images[v].style.display = "none";
+    if (v == 0) {
+        v = images.length - 1;
+        images[v].style.display = "block";
+    } else {
+        v--;
+        images[v].style.display = "block";
+    }
+} // function downloadCV() {
+ //   var githubUrl =
+ //     "https://github.com/AJinaEugen/newCV/releases/download/draft/QAJInaAlexandru.pdf";
+ //   var a = document.createElement("a");
+ //   a.href = githubUrl;
+ //   a.download = "Alex_Jina.pdf"; // You can set the desired filename here
+ //   document.body.appendChild(a);
+ //   a.click();
+ //   document.body.removeChild(a);
+ // }
+ // document.getElementById("download").addEventListener("click", downloadCV);
+ // $("#grid").addEventListener("click", (e) => {
+ //   console.log(e.target.innerText);
+ //   $(`#${e.target.innerText}`).scrollIntoView({
+ //     block: "start",
+ //     behavior: "smooth",
+ //     inline: "center",
+ //   });
+ // });
+ // $("#redirect").addEventListener("click", (e) => {
+ //   $("#Contact").scrollIntoView();
+ // });
+ // $("#redirectContact").addEventListener("click", (e) => {
+ //   $("#Contact").scrollIntoView();
+ // });
+ // function addExperience() {
+ //   $("#list_jobs").innerHTML = loadExperience();
+ // }
+ // function addRating() {
+ //   $("#bars").innerHTML = loadRating();
+ // }
+ // function addSkills() {
+ //   lod().then((loaded) => {
+ //     $("#list_skills").innerHTML = loaded;
+ //   });
+ // }
+ // addExperience();
+ // addSkills();
+ //Run npm run bundle and run live server on the dist indexHtmlDirectory -> opens up a browser where you can see ongoing changes
  // On release :npm run start and push to github. Local server will show a wrong page but, the correct data is pushed to GithubPages for view
  //
 
-},{"./addExperience":"cKhoi","./addSkills":"2FmCC"}],"cKhoi":[function(require,module,exports) {
+},{"./addImages":"8bviD","./addSkills":"2FmCC"}],"8bviD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "loadExperience", ()=>loadExperience);
-var _experienceJson = require("../experience.json");
-var _experienceJsonDefault = parcelHelpers.interopDefault(_experienceJson);
-function loadExperience() {
+parcelHelpers.export(exports, "loadImages", ()=>loadImages) // import exp from "../experience.json";
+ // function loadExperience() {
+ //   let formatHtml = "";
+ //   formatHtml = exp.map(
+ //     (entry) =>
+ //       `<li class="bunch">
+ //       <div class ="container_journey">
+ //       <div class="circle"></div>
+ //       <div class="line"></div>
+ //       </div>
+ //       <div class="place_business">
+ //     <div class="position"> <p>${entry.Position}</p></div>
+ //      <div class="Employer"><p>${entry.Employer}</p></div>
+ //     <div class="Desciption"><p class="desc">${entry.Description}</p></div>
+ //     <div class="date"><p>${entry.date}</p></div>
+ //     </div>
+ //     </li>
+ //     `
+ //   );
+ //   return formatHtml.join("");
+ // }
+ // export { loadExperience };
+;
+var _1Jpeg = require("../assets/imagesForCakes/1.jpeg");
+var _1JpegDefault = parcelHelpers.interopDefault(_1Jpeg);
+var _2Jpeg = require("../assets/imagesForCakes/2.jpeg");
+var _2JpegDefault = parcelHelpers.interopDefault(_2Jpeg);
+var _3Jpeg = require("../assets/imagesForCakes/3.jpeg");
+var _3JpegDefault = parcelHelpers.interopDefault(_3Jpeg);
+var _4Jpeg = require("../assets/imagesForCakes/4.jpeg");
+var _4JpegDefault = parcelHelpers.interopDefault(_4Jpeg);
+var _5Jpeg = require("../assets/imagesForCakes/5.jpeg");
+var _5JpegDefault = parcelHelpers.interopDefault(_5Jpeg);
+var _6Jpeg = require("../assets/imagesForCakes/6.jpeg");
+var _6JpegDefault = parcelHelpers.interopDefault(_6Jpeg);
+var _7Jpeg = require("../assets/imagesForCakes/7.jpeg");
+var _7JpegDefault = parcelHelpers.interopDefault(_7Jpeg);
+var _8Jpeg = require("../assets/imagesForCakes/8.jpeg");
+var _8JpegDefault = parcelHelpers.interopDefault(_8Jpeg);
+var _9Jpeg = require("../assets/imagesForCakes/9.jpeg");
+var _9JpegDefault = parcelHelpers.interopDefault(_9Jpeg);
+function loadImages() {
     let formatHtml = "";
-    formatHtml = (0, _experienceJsonDefault.default).map((entry)=>`<li class="bunch"> 
-
-      <div class ="container_journey">
-      <div class="circle"></div>
-      <div class="line"></div>
-      </div>
-      <div class="place_business">
-    <div class="position"> <p>${entry.Position}</p></div>
-     <div class="Employer"><p>${entry.Employer}</p></div>
-    <div class="Desciption"><p class="desc">${entry.Description}</p></div>
-    <div class="date"><p>${entry.date}</p></div>
-    </div>
-    </li>
-    `);
+    let arrayulMeu = [
+        (0, _1JpegDefault.default),
+        (0, _2JpegDefault.default),
+        (0, _3JpegDefault.default),
+        (0, _4JpegDefault.default),
+        (0, _5JpegDefault.default),
+        (0, _6JpegDefault.default),
+        (0, _7JpegDefault.default),
+        (0, _8JpegDefault.default),
+        (0, _9JpegDefault.default)
+    ];
+    console.log("loading images from addImage.js", (0, _1JpegDefault.default));
+    console.log("loading images from addImage.js", (0, _2JpegDefault.default));
+    console.log("loading images from addImage.js", (0, _3JpegDefault.default));
+    formatHtml = arrayulMeu.map((picture, index)=>{
+        if (index == 0) return `<img class="controlImages" src="${picture}" alt="">`;
+        return `<img class="controlImages noShow"   src="${picture}" alt="">`;
+    });
     return formatHtml.join("");
 }
 
-},{"../experience.json":"aTMDh","@parcel/transformer-js/src/esmodule-helpers.js":"4FjCx"}],"aTMDh":[function(require,module,exports) {
-module.exports = JSON.parse('[{"Position":"QA engineer","Employer":"Linnify","Description":"A pivotal moment in my career. I learned here most of my hard-skills. Working in a team and growing were amazing benefits.","date":"2022 Aug - 2023 Nov "},{"Position":"Tester","Employer":"QuanticLab","Description":"Lerned to write testcase, run regressions, test runs and report findings.","date":"2022 Feb - 2022 Aug"},{"Position":"Automation course","Employer":"Azimut Vision","Description":"This is where I learned how to run my first automation test using Java and Selenium. A lot has changed since then..","date":"2021 Apr - 2021 Oct"}]');
+},{"../assets/imagesForCakes/1.jpeg":"3kvzd","../assets/imagesForCakes/2.jpeg":"66aXK","../assets/imagesForCakes/3.jpeg":"fpMxq","../assets/imagesForCakes/4.jpeg":"70pX5","../assets/imagesForCakes/5.jpeg":"6EFJn","../assets/imagesForCakes/6.jpeg":"6ph1s","../assets/imagesForCakes/7.jpeg":"2NPG7","../assets/imagesForCakes/8.jpeg":"8emEV","../assets/imagesForCakes/9.jpeg":"1q1Hu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3kvzd":[function(require,module,exports) {
+module.exports = require("9293c633ee3589b4").getBundleURL("10Mjw") + "1.09f450c9.jpeg" + "?" + Date.now();
 
-},{}],"4FjCx":[function(require,module,exports) {
+},{"9293c633ee3589b4":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"66aXK":[function(require,module,exports) {
+module.exports = require("7a2f11e0cd2f9f6").getBundleURL("10Mjw") + "2.c474a6cf.jpeg" + "?" + Date.now();
+
+},{"7a2f11e0cd2f9f6":"lgJ39"}],"fpMxq":[function(require,module,exports) {
+module.exports = require("9b4f69b5eb5d46bf").getBundleURL("10Mjw") + "3.41a8d2fe.jpeg" + "?" + Date.now();
+
+},{"9b4f69b5eb5d46bf":"lgJ39"}],"70pX5":[function(require,module,exports) {
+module.exports = require("c0ec1ddcccb2e691").getBundleURL("10Mjw") + "4.d79b1a84.jpeg" + "?" + Date.now();
+
+},{"c0ec1ddcccb2e691":"lgJ39"}],"6EFJn":[function(require,module,exports) {
+module.exports = require("7ee07534464ea59b").getBundleURL("10Mjw") + "5.6f67e82f.jpeg" + "?" + Date.now();
+
+},{"7ee07534464ea59b":"lgJ39"}],"6ph1s":[function(require,module,exports) {
+module.exports = require("22c107cc0baf5f64").getBundleURL("10Mjw") + "6.2d814f7b.jpeg" + "?" + Date.now();
+
+},{"22c107cc0baf5f64":"lgJ39"}],"2NPG7":[function(require,module,exports) {
+module.exports = require("44733e06d81723dc").getBundleURL("10Mjw") + "7.9632532e.jpeg" + "?" + Date.now();
+
+},{"44733e06d81723dc":"lgJ39"}],"8emEV":[function(require,module,exports) {
+module.exports = require("ac955ab010983e0a").getBundleURL("10Mjw") + "8.2d844c97.jpeg" + "?" + Date.now();
+
+},{"ac955ab010983e0a":"lgJ39"}],"1q1Hu":[function(require,module,exports) {
+module.exports = require("af5b4e9f65299ac9").getBundleURL("10Mjw") + "9.7c6f7d31.jpeg" + "?" + Date.now();
+
+},{"af5b4e9f65299ac9":"lgJ39"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -681,38 +870,64 @@ exports.export = function(dest, destName, get) {
 },{}],"2FmCC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "loadContactInfo", ()=>loadContactInfo);
+// import skills from "../skills.json";
+// function loadRating(x) {
+//   let formatHtml = [];
+//   for (let i = 0; i < x; i++) {
+//     formatHtml += `<div class="bar"></div>`;
+//   }
+//   return formatHtml;
+// }
+// function loadSkills() {
+//   let formatHtml = "";
+//   formatHtml = skills.map(
+//     (entry) => `<li>
+//             <h3>${entry.Skill}</h3>
+//             <br />
+//             <p>${entry.Description}</p>
+//             <div class="row" id="bars">
+//               ${loadRating(entry.Rating)}
+//             </div>
+//           </li>`
+//   );
+//   return formatHtml.join("");
+// }
+// function lod() {
+//   return new Promise((resolve, reject) => {
+//     resolve(loadSkills());
+//   });
+// }
 parcelHelpers.export(exports, "loadSkills", ()=>loadSkills);
 parcelHelpers.export(exports, "loadRating", ()=>loadRating);
 parcelHelpers.export(exports, "lod", ()=>lod);
-var _skillsJson = require("../skills.json");
-var _skillsJsonDefault = parcelHelpers.interopDefault(_skillsJson);
-function loadRating(x) {
-    let formatHtml = [];
-    for(let i = 0; i < x; i++)formatHtml += `<div class="bar"></div>`;
+var _experienceJson = require("../experience.json");
+var _experienceJsonDefault = parcelHelpers.interopDefault(_experienceJson);
+function loadContactInfo() {
+    let formatHtml = "";
+    formatHtml = ` <div class="contactModal">
+       <div class="close">X</div>
+       <div class="contactInfoModal">
+       <div class="numar-de-telefon">
+       <h2>WhatsApp: 0770376762</h2>
+
+       </div>
+          <div class="frame" id="Contact">
+      <iframe
+        src="https://us21.list-manage.com/contact-form?u=c9ce8229995c3bf412e731ca3&form_id=2146978df46b416a35b57478eeea6b5b"
+        width="100%"
+        height="100%"
+        frameborder="0"
+      ></iframe>
+       </div>
+      </div>
+    `;
     return formatHtml;
 }
-function loadSkills() {
-    let formatHtml = "";
-    formatHtml = (0, _skillsJsonDefault.default).map((entry)=>`<li>
-            <h3>${entry.Skill}</h3>
-            <br />
-            <p>${entry.Description}</p>
-            <div class="row" id="bars">
-              ${loadRating(entry.Rating)}
-                
-            </div>
-          </li>`);
-    return formatHtml.join("");
-}
-function lod() {
-    return new Promise((resolve, reject)=>{
-        resolve(loadSkills());
-    });
-}
 
-},{"../skills.json":"fKmLW","@parcel/transformer-js/src/esmodule-helpers.js":"4FjCx"}],"fKmLW":[function(require,module,exports) {
-module.exports = JSON.parse('[{"Skill":"JavaScript","Description":"Web programming language for interactive and dynamic content on the client side.","Rating":7},{"Skill":"Cypress","Description":"JavaScript-based end-to-end testing framework for web applications.","Rating":8},{"Skill":"Manual Testing","Description":"Human-driven testing process where testers execute tests without automation tools, assessing software functionality, usability, and other aspects.","Rating":9},{"Skill":"Postman API Testing","Description":"Aiding in creating, executing, and automating requests to validate responses and assess performance.","Rating":4},{"Skill":"Communication","Description":"Effective collaboration between Quality Assurance (QA) professionals, development teams, and other stakeholders to ensure clear understanding, efficient issue resolution, and seamless progress in the software testing process.","Rating":8}]');
+},{"../experience.json":"aTMDh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aTMDh":[function(require,module,exports) {
+module.exports = JSON.parse('[{"Position":"QA engineer","Employer":"Linnify","Description":"A pivotal moment in my career. I learned here most of my hard-skills. Working in a team and growing were amazing benefits.","date":"2022 Aug - 2023 Nov "},{"Position":"Tester","Employer":"QuanticLab","Description":"Lerned to write testcase, run regressions, test runs and report findings.","date":"2022 Feb - 2022 Aug"},{"Position":"Automation course","Employer":"Azimut Vision","Description":"This is where I learned how to run my first automation test using Java and Selenium. A lot has changed since then..","date":"2021 Apr - 2021 Oct"}]');
 
-},{}]},["lQxvG","1SICI"], "1SICI", "parcelRequire9456")
+},{}]},["j2YDk","1SICI"], "1SICI", "parcelRequire9456")
 
 //# sourceMappingURL=index.18dbc454.js.map

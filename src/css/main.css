@@ -4,313 +4,328 @@
   margin: 0;
   scroll-behavior: smooth;
   scroll-margin-block: 0px;
+  font-family: "EB Garamond", serif;
 }
 body {
+  background-size: cover; /* Ensure the image covers the entire div */
   width: 100%;
-  background-color: rgb(243, 241, 238);
-  font-family: "Times New Roman", Times, serif;
-  height: 100%;
-}
-
-header {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  border-bottom: #000000 solid 2px;
-  z-index: 3;
-  background-color: rgb(235, 185, 237);
-}
-
-nav {
-  display: flex;
-
-  max-width: 100%;
-  justify-content: space-between;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: block;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
+  align-content: center;
+  margin-right: 50%;
 }
 
-.nav_menu {
-  flex: 1;
-  margin-right: 30%;
-}
-
-.nav_logo {
-  flex: 1;
-  margin-left: 35px;
-  font-weight: bold;
-  font-size: 30px;
-}
-.nav_list_grid {
-  list-style-type: none;
-  margin-left: auto;
-  flex: 2;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 2rem;
-  right: 10px;
-  position: relative;
-  background-color: #80bff7;
-  padding: 10px;
-  border-radius: 90;
-  z-index: 2;
-}
-
-.nav_item {
-  text-align: center;
-  font-weight: bold;
-  transform: scale(1.2);
-}
-
-.home_container_grid {
+.baseImageContainer {
+  background-size: cover; /* Ensure the image covers the entire div */
+  padding: 0;
+  margin: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-  overflow: auto;
+  z-index: -2;
+  position: absolute;
+  background-color: rgb(243, 241, 238);
+  background-image: url("../assets/stackofmacaron.jpg");
+  opacity: 0.7;
 }
 
-.social,
-.home,
-.empty {
-  padding: 10px;
+.container {
+  margin-left: auto;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 3vh;
 }
 
 .filler {
-  width: 100%;
-  height: 70px;
-}
-
-.social {
-  height: 600px;
-  text-align: center;
-  margin-top: 60%;
-}
-
-.linkedin,
-.facebook,
-.email {
-  padding: 10px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.home_container {
-  display: flex;
-  flex-direction: row;
-  margin-top: 15%;
-  text-align: center;
-}
-
-.home_social,
-.img {
   flex: 1;
 }
 
-.aj_image {
-  height: 300px;
-  width: auto;
-  border-radius: 190 90 380;
-}
-
-.titlu,
-.subtitle {
-  text-align: justify;
-  padding-left: 30%;
-  font-size: 40px;
-}
-
-.subtitle {
-  color: rgb(173, 171, 171);
-  word-spacing: normal;
-  letter-spacing: normal;
-}
-
-.paragraf {
-  margin-top: 20px;
-  padding-left: 30%;
-  text-align: justify;
-  font-size: 22px;
-  word-spacing: normal;
-  letter-spacing: normal;
-}
-
-.home_buttons {
-  display: flex;
-  margin: 10%;
-  flex-direction: row;
-  margin-left: 25%;
-}
-
-.button_downloadcv,
-.contact_me {
-  padding: 15px;
-  margin-left: 10px;
-  text-align: center;
-  margin-left: 10%;
-  width: 100%;
-  max-width: max-content;
+.main-menu-button {
   cursor: pointer;
-  background-color: rgb(128, 191, 247);
-  border-radius: 40px;
-  font-size: 20px;
-}
-
-.aligned {
-  display: flex;
-  margin-left: 20px;
-  flex-direction: row;
-  text-align: right;
   align-items: center;
-  transform: scale(1);
-  padding-right: 20px;
-  flex: 1;
-}
-
-.dow {
-  flex: 2;
-
-  transform: scale(0.5);
-  margin-left: 0px;
-}
-
-.experience {
-  height: 400px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-}
-
-.about {
-  margin-top: 10%;
-  margin-left: 15%;
-  text-align: justify;
-  font-size: 22px;
-  word-spacing: normal;
-  letter-spacing: normal;
-  grid-column: 2;
-}
-
-.about > h1 {
-  margin-bottom: 20px;
-  font-size: 40px;
-}
-
-.jobs {
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-}
-#list_jobs {
-  list-style-type: none;
-  grid-column: 2;
-  margin-left: 50%;
-  text-align: justify;
-  font-size: 22px;
-  word-spacing: normal;
-  letter-spacing: normal;
-  padding-left: 1.6%;
-  margin-bottom: 5%;
-}
-
-#list_jobs,
-p {
-  padding-bottom: 5px;
-}
-
-.bunch {
-  margin-bottom: 5%;
-  display: flex;
-  flex-direction: row;
   align-content: center;
 }
 
-.position {
+h1 {
+  margin: 5vh;
+}
+
+/* Image modal css */
+
+.imagesModal {
+  display: none;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50px;
+
+  height: 60vh;
+  width: 80vh;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Optionally, you can add additional styling */
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+}
+
+.contactModal {
+  display: none;
+  position: absolute;
+  z-index: 0;
+
+  height: 70vh;
+  width: 80vh;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Optionally, you can add additional styling */
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+}
+
+.imageHolder {
   display: flex;
-  position: relative;
   flex-direction: row;
-  align-items: start;
-  align-content: start;
-  position: relative;
-
-  font: bold;
-  font-size: 30px;
+  height: 100%;
+  width: 100%;
 }
 
-.desc {
-  font-size: 15px;
-  width: 50%;
+.back {
+  flex: 0.5;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
 }
 
-.container_journey {
+.forward {
+  flex: 0.5;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.circle {
+.nextButton {
+  flex: 2;
+  height: 80%;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 30%;
+}
+
+.backButton {
+  flex: 2;
+  height: 80%;
+  align-items: center;
+  align-content: center;
+  margin-top: 70%;
+}
+
+.imageshow {
   position: relative;
-  width: 50%;
-  height: 20px;
-  width: 20px;
-  z-index: 1;
-  border-radius: 50%;
-  border: #000000 solid;
-  background-color: antiquewhite;
-  right: 5%;
-}
-
-.line {
-  display: block;
-  width: 5px;
-  background: #000000;
-  position: relative;
-  right: 52%;
-  height: 120%;
-}
-
-.experience__le {
+  border-radius: 30px;
+  width: 70%;
   margin-top: 10%;
-  margin-left: 15%;
-  grid-column: 2;
-  font-size: 40px;
-  margin-bottom: 10%;
-}
-
-#list_skills {
-  list-style-type: none;
-  grid-column: 2;
-  margin-left: 20%;
-  text-align: justify;
-  font-size: 22px;
-  word-spacing: normal;
-  letter-spacing: normal;
-  padding-left: 1.6%;
-  margin-bottom: 5%;
-}
-
-#list_skills,
-p {
-  padding-bottom: 5px;
-}
-
-.row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex: 3;
 }
 
-.bar {
-  border-radius: 5%;
-  border: solid rgb(124, 189, 124);
-  background-color: rgb(124, 189, 124);
-  width: 10%;
-  height: 10px;
-  margin: 5px;
+.controlImages {
+  border-radius: 20px;
 }
 
-h3 {
-  margin-top: 5%;
+.img-text {
+  margin-top: 25%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+#Contact {
+  height: 50vh;
+  position: relative;
+  align-content: center;
+}
+
+#scaled-frame {
+  zoom: 1;
+  -moz-transform: scale(1);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(1);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(1);
+  -webkit-transform-origin: 0 0;
+}
+
+.numar-de-telefon {
+  text-align: center;
+}
+
+.close,
+.closeContact {
+  text-align: right;
+}
+
+.showTrue {
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.showFalse {
+  display: none;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.noShow {
+  display: none;
+}
+
+/* media css*/
+
+/* media css*/
+
+/* media css*/
+
+/* media css*/
+
+/* media css*/
+@media (max-width: 800px) {
+  /* Adjust breakpoint as needed */
+
+  .container {
+    margin-left: auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(11, 11, 11);
+    font-size: 2vh;
+  }
+
+  .contactModal {
+    display: none;
+    position: absolute;
+    z-index: 0;
+
+    height: 50vh;
+    width: 80vh;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optionally, you can add additional styling */
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+  }
+
+  .imagesModal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    height: 50%;
+    width: 50vh;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optionally, you can add additional styling */
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+  }
+
+  .imageshow {
+    position: static;
+
+    border-radius: 30px;
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+
+    flex: 5;
+  }
+
+  .controlImages {
+    position: static;
+    z-index: 4;
+  }
+  .back {
+    opacity: 1;
+    flex: 0.5;
+    width: 100%;
+    height: 100%;
+  }
+  .backButton {
+    flex: 1;
+    align-content: center;
+    align-items: center;
+    height: 80%;
+  }
+
+  .contactInfo {
+    position: absolute;
+    right: 5vh;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pagetitle {
+    width: 100%;
+    align-content: center;
+    margin-bottom: 10vh;
+    background-color: rgb(250, 176, 246);
+    opacity: 0.6;
+  }
+
+  .titletext {
+    position: static;
+    align-content: center;
+    padding-right: 20vh;
+    margin-right: auto;
+    box-sizing: content-box;
+    width: 20%;
+  }
+}
+
+/*  useless */
+
+@media (min-width: 800) {
+  /* Adjust breakpoint as needed */
+  .container {
+    margin-left: auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-menu-button {
+    font-size: 4vh;
+    align-items: center;
+  }
+
+  .pagetitle {
+    background-color: rgb(250, 176, 246);
+
+    opacity: 0.6;
+  }
+
+  .titletext {
+    align-content: center;
+    padding-right: 20vh;
+  }
 }
