@@ -18,471 +18,94 @@ body {
 }
 
 .baseImageContainer {
-  z-index: -2;
-  opacity: .7;
   background-color: #f3f1ee;
   background-image: url("stackofmacaron.592d88d2.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
   position: absolute;
+}
+
+.mainContent {
+  width: 100%;
+  position: fixed;
   top: 0;
 }
 
-.container {
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  margin-left: auto;
-  font-size: 3vh;
-  display: flex;
-}
-
-.filler {
-  flex: 1;
-}
-
-.main-menu-button {
-  cursor: pointer;
-  align-content: center;
-  align-items: center;
-}
-
-h1 {
-  margin: 5vh;
-}
-
-.imagesModal {
-  z-index: 0;
-  background-color: #ececec;
-  border-radius: 50px;
-  width: 80vh;
-  height: 60vh;
-  padding: 20px;
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.contactModal {
-  z-index: 0;
-  background-color: #ececec;
-  width: 80vh;
-  height: 70vh;
-  padding: 20px;
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.imageHolder {
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.back {
-  opacity: .6;
-  flex: .5;
-  width: 100%;
-  height: 100%;
-}
-
-.forward {
-  opacity: .6;
+.title {
   text-align: center;
-  flex-direction: column;
-  flex: .5;
-  align-items: center;
+  color: #fff;
+  background-color: #211e1c99;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.space {
+  margin-top: 300px;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #211e1c99;
   width: 100%;
-  height: 100%;
-  display: flex;
+  position: fixed;
+  bottom: 0;
 }
 
-.nextButton {
-  flex: 2;
-  align-content: center;
-  align-items: center;
-  height: 80%;
-  padding-bottom: 30%;
+.contactform {
+  display: none;
 }
 
-.backButton {
-  flex: 2;
-  align-content: center;
-  align-items: center;
-  height: 80%;
-  margin-top: 70%;
-}
-
-.imageshow {
-  object-fit: cover;
-  object-fit: contain;
-  border-radius: 30px;
-  flex-direction: column;
-  flex: 3;
-  width: 70%;
-  max-width: 100%;
-  height: auto;
-  margin-top: 10%;
-  display: flex;
-  position: relative;
-}
-
-.controlImages {
+div.gallery {
+  border: 1px solid #ccc;
   border-radius: 20px;
-  max-width: 100%;
+  margin: 10px;
 }
 
-.img-text {
-  margin-top: 25%;
-  margin-left: 50%;
-  transform: translate(-50%);
+div.gallery:hover {
+  border: 1px solid #777;
 }
 
-#Contact {
-  align-content: center;
-  height: 50vh;
-  position: relative;
+div.gallery img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
 }
 
-#scaled-frame {
-  zoom: 1;
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-}
-
-.numar-de-telefon {
+div.desc {
   text-align: center;
+  background-color: #c687b4ec;
+  padding: 15px;
+  font-size: 30px;
 }
 
-.close, .closeContact {
-  text-align: right;
+* {
+  box-sizing: border-box;
 }
 
-.showTrue {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
+.responsive {
+  float: left;
+  width: 25%;
+  padding: 0 6px;
 }
 
-.showFalse {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: none;
+@media only screen and (width <= 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
 }
 
-.noShow {
-  display: none;
-}
-
-@media (width <= 821px) {
-  .container {
-    color: #b10000;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    margin-left: auto;
-    font-size: 2vh;
-    display: flex;
-  }
-
-  .contactModal {
-    z-index: 0;
-    background-color: #ececec;
-    width: 80vh;
-    height: 50vh;
-    padding: 20px;
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .imagesModal {
-    z-index: 1;
-    background-color: #ececec;
-    border-radius: 50px;
-    width: 50vh;
-    height: 50%;
-    padding: 20px;
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .imageshow {
-    border-radius: 30px;
-    flex: 5;
-    width: 80%;
-    margin-top: 10%;
-    display: flex;
-    position: static;
-  }
-
-  .controlImages {
-    z-index: 4;
-    max-width: 100%;
-    max-height: 100%;
-    position: static;
-  }
-
-  .forward {
-    height: 90%;
-  }
-
-  .back {
-    opacity: 1;
-    flex: .5;
+@media only screen and (width <= 500px) {
+  .responsive {
     width: 100%;
-    height: 100%;
-  }
-
-  .backButton {
-    flex: 1;
-    align-content: center;
-    align-items: center;
-    height: 80%;
-  }
-
-  .contactInfo {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    position: absolute;
-    top: 10vh;
-    right: 5vh;
-  }
-
-  .pagetitle {
-    opacity: .6;
-    background-color: #fab0f6;
-    align-content: center;
-    width: 100%;
-    margin-bottom: 10vh;
-  }
-
-  .titletext {
-    box-sizing: content-box;
-    align-content: center;
-    width: 20%;
-    margin-right: auto;
-    padding-right: 20vh;
-    position: static;
   }
 }
 
-@media (width <= 400px) {
-  .container {
-    color: #18c524;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    margin-left: auto;
-    font-size: 2vh;
-    display: flex;
-  }
-
-  .contactModal {
-    z-index: 0;
-    background-color: #ececec;
-    width: 80vh;
-    height: 50vh;
-    padding: 20px;
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .imagesModal {
-    z-index: 1;
-    background-color: #ececec;
-    border-radius: 50px;
-    width: 50vh;
-    height: 50%;
-    padding: 20px;
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .imageshow {
-    border-radius: 30px;
-    flex: 5;
-    width: 80%;
-    margin-top: 10%;
-    display: flex;
-    position: static;
-  }
-
-  .controlImages {
-    z-index: 4;
-    max-width: 100%;
-    max-height: 100%;
-    position: static;
-  }
-
-  .back {
-    opacity: 1;
-    flex: .5;
-    width: 100%;
-    height: 100%;
-  }
-
-  .backButton {
-    flex: 1;
-    align-content: center;
-    align-items: center;
-    height: 80%;
-  }
-
-  .forward {
-    height: 90%;
-  }
-
-  .contactInfo {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    position: absolute;
-    top: 10vh;
-    right: 5vh;
-  }
-
-  .pagetitle {
-    opacity: .6;
-    background-color: #fab0f6;
-    align-content: center;
-    width: 100%;
-    margin-bottom: 10vh;
-  }
-
-  .titletext {
-    box-sizing: content-box;
-    align-content: center;
-    width: 20%;
-    margin-right: auto;
-    padding-right: 20vh;
-    position: static;
-  }
-}
-
-@media screen and (width <= 1220px) {
-  .container {
-    color: #670bd1;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    margin-left: auto;
-    font-size: 2vh;
-    display: flex;
-  }
-
-  .contactModal {
-    z-index: 0;
-    background-color: #ececec;
-    width: 80vh;
-    height: 50vh;
-    padding: 20px;
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .imagesModal {
-    z-index: 1;
-    background-color: #ececec;
-    border-radius: 50px;
-    width: 50vh;
-    height: 50%;
-    padding: 20px;
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .imageshow {
-    border-radius: 30px;
-    flex: 5;
-    width: 80%;
-    margin-top: 10%;
-    display: flex;
-    position: static;
-  }
-
-  .controlImages {
-    z-index: 4;
-    max-width: 100%;
-    max-height: 100%;
-    position: static;
-  }
-
-  .back {
-    opacity: 1;
-    flex: .5;
-    width: 100%;
-    height: 100%;
-  }
-
-  .backButton {
-    flex: 1;
-    align-content: center;
-    align-items: center;
-    height: 80%;
-  }
-
-  .forward {
-    height: 90%;
-  }
-
-  .contactInfo {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    position: absolute;
-    top: 10vh;
-    right: 5vh;
-  }
-
-  .pagetitle {
-    opacity: .6;
-    background-color: #fab0f6;
-    align-content: center;
-    width: 100%;
-    margin-bottom: 10vh;
-  }
-
-  .titletext {
-    box-sizing: content-box;
-    align-content: center;
-    width: 20%;
-    margin-right: auto;
-    padding-right: 20vh;
-    position: static;
-  }
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 /*# sourceMappingURL=index.34df27b5.css.map */

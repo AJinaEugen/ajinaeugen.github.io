@@ -25,8 +25,49 @@ function showModal() {
   //Below 2 lines add the modal
   // document.querySelector(".showModal").innerHTML = loadImageModal();
   console.log("Display Show modal");
-  document.querySelector(".imagesModal").style.display = "block";
+  document.querySelector(".pictureMode").style.display = "flex";
 
+  document.querySelector(".rightButton").addEventListener("click", (e) => {
+    console.log("clicked next");
+    let images = $(".controlImages");
+    console.log("clicked next");
+    nextPicture(images);
+    console.log("clicked next img  ", v);
+  });
+
+  document.querySelector(".leftButton").addEventListener("click", (e) => {
+    let images = $(".controlImages");
+    console.log("clicked back");
+    previousPicture(images);
+    console.log("clicked back img  ", v);
+  });
+
+  let v = 0;
+
+  function nextPicture(images) {
+    images[v].style.display = "none";
+
+    if (v < images.length - 1) {
+      v++;
+      images[v].style.display = "block";
+    } else {
+      images[v].style.display = "none";
+      v = 0;
+      images[v].style.display = "block";
+    }
+  }
+
+  function previousPicture(images) {
+    images[v].style.display = "none";
+
+    if (v == 0) {
+      v = images.length - 1;
+      images[v].style.display = "block";
+    } else {
+      v--;
+      images[v].style.display = "block";
+    }
+  }
   //this line adds an event listener for the modal-> the event listener uses the
   //function below
 }
@@ -64,46 +105,6 @@ function closeContactModal() {
 //Control images
 
 // v = visual index
-let v = 0;
-
-document.querySelector(".nextButton").addEventListener("click", (e) => {
-  let images = $(".controlImages");
-
-  nextPicture(images);
-  console.log("clicked next img  ", v);
-});
-
-document.querySelector(".backButton").addEventListener("click", (e) => {
-  let images = $(".controlImages");
-
-  previousPicture(images);
-  console.log("clicked back img  ", v);
-});
-
-function nextPicture(images) {
-  images[v].style.display = "none";
-
-  if (v < images.length - 1) {
-    v++;
-    images[v].style.display = "block";
-  } else {
-    images[v].style.display = "none";
-    v = 0;
-    images[v].style.display = "block";
-  }
-}
-
-function previousPicture(images) {
-  images[v].style.display = "none";
-
-  if (v == 0) {
-    v = images.length - 1;
-    images[v].style.display = "block";
-  } else {
-    v--;
-    images[v].style.display = "block";
-  }
-}
 
 // function downloadCV() {
 //   var githubUrl =

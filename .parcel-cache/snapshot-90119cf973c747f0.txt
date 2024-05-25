@@ -1,4 +1,4 @@
-6009
+6013
 111C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\svgo\plugins\removeXMLProcInst.js133605051834457921 0
 116C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\helpers\esm\_iterable_to_array.js133605051836044705 0
 112C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\type-fest\source\set-required.d.ts133605051830501355 0
@@ -12,7 +12,7 @@
 104C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\utility-types\CHANGELOG.md133605050450775808 0
 98C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\htmlnano\index.d.mts133605051835118029 0
 97C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\braces\lib\utils.js133605050450261155 0
-80C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.html133605268959073994 0
+80C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.html133611389334807672 0
 126C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\mdn-data\css\types.schema.json133605051829305525 0
 111C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\mdn-data\css\at-rules.schema.json133605051823448204 0
 72C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\.github133598771032128038 1
@@ -54,7 +54,7 @@
 116C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\core\lib\public\BundleGroup.js133605050461812199 0
 145C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\Lexer.js133605051833790586 0
 153C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js133605050446971873 0
-69C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist133605268959073994 1
+69C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist133611389334839652 1
 106C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\posthtml-render\package.json133605051821324463 0
 82C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\package-lock.json133605051841687020 0
 138C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.js133605051821505223 0
@@ -93,7 +93,7 @@
 97C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\assets\imagesForCakes\6.jpeg133605220850686346 0
 109C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\regions\GQ.js133605050473386914 0
 97C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\stable\package.json133605051819446338 0
-75C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\assets133605223303685023 1
+75C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\assets133611197429956563 1
 132C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\lib\syntax\node\Function.js133605051836291655 0
 122C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\lib\data-patch.js133605051836152759 0
 116C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\events\test\Disposable.test.js133605050454423596 0
@@ -102,7 +102,7 @@
 135C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\syntax\node\IdSelector.cjs133605051832070620 0
 156C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\function\expression.js133605051831950947 0
 111C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\helpers\esm\_create_super.js133605051835618219 0
-81C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\css\main.css133605266177491208 0
+81C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\css\main.css133611389149963532 0
 98C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\.bin\detect-libc.cmd133605050496271923 0
 95C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\tslib\SECURITY.md133605051823978452 0
 116C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\core\src\public\Environment.js133605050463333169 0
@@ -119,7 +119,7 @@
 84C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\experience.json133598771034310454 0
 102C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\postcss-value-parser\lib133605051823804291 1
 102C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\json5\lib\stringify.d.ts133605050451872113 0
-79C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\index.html133605195953442453 0
+79C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\index.html133611389160638230 0
 122C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\runtime-js\src\helpers\bundle-url.js133605051829355386 0
 109C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\regions\SC.js133605050485426183 0
 128C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.c133605050454056031 0
@@ -139,7 +139,7 @@
 136C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\README.md133605051835779927 0
 97C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\braces\lib\parse.js133605050449906557 0
 107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\resolver-glob\LICENSE133605050455266480 0
-84C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\js\addImages.js133605225479425953 0
+84C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\js\addImages.js133611225666114036 0
 118C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\css-canvas.js133605050464764671 0
 138C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\img-naturalwidth-naturalheight.js133605050474973043 0
 84C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\js\addSkills.js133604966818806347 0
@@ -153,7 +153,7 @@
 95C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\tslib\LICENSE.txt133605051825453518 0
 97C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\parse-json\index.js133605051820617107 0
 122C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\lib\pseudo-selectors\index.js.map133605051832261571 0
-79C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\js\main.js133605158802553160 0
+79C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\js\main.js133610494540573354 0
 104C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\msgpackr-extract\README.md133605050448063793 0
 139C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\mdn-css-backdrop-pseudo-element.js133605050479285197 0
 110C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-what\lib\commonjs\parse.d.ts133605051826951269 0
@@ -222,6 +222,14 @@
 136C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\syntax\node\index-parse.cjs133605051832456317 0
 146C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\ordered-binary\.nyc_output\5b6bd808-0399-4ee6-9395-344688761dfa.json133605050449776954 0
 92C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\assets\ladyfingers.jpeg133598805464230728 0
+90C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\assets\left-arrow.png133611197064783482 0
+107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\source-map\dist\source-map.js133605051828112963 0
+93C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\tslib\README.md133605051823734754 0
+121C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\notifications.js133605050482182528 0
+96C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\domhandler\LICENSE133605051819466276 0
+117C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\graph\test\ContentGraph.test.js133605050457096269 0
+107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\update-browserslist-db\cli.js133605050446854954 0
+91C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\src\assets\right-arrow.png133611197211461916 0
 117C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\svgo\plugins\convertOneStopGradients.js133605051832288637 0
 103C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\balanced-match\LICENSE.md133605026773406824 0
 147C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\dir.js133605051831627038 0
@@ -870,12 +878,6 @@
 114C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\node_modules\entities\lib133605051833288815 1
 145C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeXMLNS.js133605051833239242 0
 119C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\update-browserslist-db\.devcontainer.json133605050447648590 0
-107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\source-map\dist\source-map.js133605051828112963 0
-93C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\tslib\README.md133605051823734754 0
-121C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\notifications.js133605050482182528 0
-96C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\domhandler\LICENSE133605051819466276 0
-117C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\graph\test\ContentGraph.test.js133605050457096269 0
-107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\update-browserslist-db\cli.js133605050446854954 0
 126C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\lexer\generic.cjs133605051831772803 0
 98C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\core\Visitor.js133605050455489510 0
 116C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\lib\syntax\node\IdSelector.js133605051836720082 0
@@ -1159,8 +1161,8 @@
 107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\helpers\esm\_inherits.js133605051835944970 0
 96C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\README.md133605051838082693 0
 95C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\svgo\package.json133605051830789231 0
-93C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\process\LICENSE133605026773778432 0
 107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\regenerator-runtime\README.md133605051821992662 0
+93C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\process\LICENSE133605026773778432 0
 143C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\index.d.ts133605051830124177 0
 142C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\plugins.js133605051830789231 0
 116C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\svgo\plugins\addClassesToSVGElement.js133605051831457474 0
@@ -1215,6 +1217,7 @@
 113C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\helpers\_\_non_iterable_spread133605051838062836 1
 157C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\parse.js133605051834791730 0
 105C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\svgo\plugins\mergeStyles.js133605051833021163 0
+94C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\right-arrow.c8255680.png133611204693680625 0
 106C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\svgo\plugins\minifyStyles.js133605051833071024 0
 132C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\syntax\config\lexer.cjs133605051833457288 0
 115C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\svgo\plugins\moveElemsAttrsToGroup.js133605051833119563 0
@@ -1895,7 +1898,7 @@
 98C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\node-addon-api\tools133605050452183131 1
 96C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\source-map133605050462507955 1
 114C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\helpers\esm\_async_generator.js133605051834791730 0
-98C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\strawberry-cake.da5a25e5.png133605265936280416 0
+98C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\strawberry-cake.da5a25e5.png133611326748341511 0
 94C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\dotenv\README.md133605050447450949 0
 119C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\css-subgrid.js133605050468803117 0
 88C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\json5\dist133605050451253628 1
@@ -2421,7 +2424,7 @@
 91C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\graph133605050459308540 1
 112C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133605051824684702 0
 111C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\htmlparser2\lib\WritableStream.js133605051822657246 0
-88C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.34df27b5.css133605266177715262 0
+88C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.34df27b5.css133611389057319460 0
 100C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\htmlnano\.eslintignore133605051820793811 0
 104C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\cjs\clean\Comment.cjs133605051825872726 0
 114C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\lib\utils133605051837620050 1
@@ -3116,10 +3119,10 @@
 128C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\lexer\structure.cjs133605051834972275 0
 102C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\helpers\esm\_set.js133605051836152759 0
 128C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\generator\index.cjs133605051832635575 0
-131C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\node_modules\domutils\lib\stringify.js.map133605051831627038 0
-117C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\cjs\tokenizer\adopt-buffer.cjs133605051821005327 0
-132C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\generator\sourceMap.cjs133605051834791730 0
 111C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\lib\syntax\node\Ratio.js133605051837503250 0
+131C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\node_modules\domutils\lib\stringify.js.map133605051831627038 0
+132C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\generator\sourceMap.cjs133605051834791730 0
+117C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\cjs\tokenizer\adopt-buffer.cjs133605051821005327 0
 147C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic.js133605051832635575 0
 132C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\input-autocomplete-onoff.js133605050475472765 0
 136C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\index.cjs133605051832635575 0
@@ -3339,7 +3342,6 @@
 129C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\node_modules\domutils\lib\stringify.d.ts133605051833109585 0
 105C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\lib\lexer\index.js133605051836790541 0
 106C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\lib\lexer\search.js133605051837543145 0
-126C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\cjs\tokenizer\char-code-definitions.cjs133605051825297225 0
 143C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeViewBox.js133605051833169439 0
 116C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\lib\definition-syntax\walk.js133605051837982960 0
 103C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@swc\helpers\cjs\_jsx.cjs133605051832790737 0
@@ -3367,6 +3369,7 @@
 119C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\input-range.js133605050475948369 0
 114C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\caniuse-lite\data\features\tls1-1.js133605050487424175 0
 106C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\cjs\utils\ident.cjs133605051832456317 0
+126C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\cjs\tokenizer\char-code-definitions.cjs133605051825297225 0
 140C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\Rule.js133605051831285214 0
 110C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\cjs\tokenizer\index.cjs133605051833457288 0
 117C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-tree\cjs\syntax\node\StyleSheet.cjs133605051835118029 0
@@ -3730,6 +3733,7 @@
 124C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\lib\pseudo-selectors\aliases.js.map133605051829788513 0
 91C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\.bin\svgo.cmd133605051839618379 0
 126C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133605051830969240 0
+93C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\left-arrow.caa0cb82.png133611204693896787 0
 115C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\transformer-babel\src\flow.js133605051830403705 0
 124C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\lib\pseudo-selectors\filters.js.map133605051831168702 0
 120C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\css-select\lib\pseudo-selectors\index.d.ts133605051834031674 0
@@ -5000,7 +5004,7 @@
 120C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\transformer-image\src\loadSharp.js133605051828791317 0
 125C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\transformer-image\src\validateConfig.js133605051829405252 0
 127C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\transformer-image\lib\ImageTransformer.js133605051827772820 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\6.2d814f7b.jpeg133605265935860818 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\6.2d814f7b.jpeg133611326748514853 0
 120C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\transformer-image\lib\loadSharp.js133605051828629921 0
 125C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\transformer-image\lib\validateConfig.js133605051829124185 0
 110C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\transformer-html\LICENSE133605051827403661 0
@@ -5162,7 +5166,7 @@
 107C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\profiler\lib\types.js133605050455924816 0
 138C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\README.md133605051829124185 0
 96C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\plugin\lib133605050453976241 1
-97C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\stackofmacaron.592d88d2.jpg133605265937278617 0
+97C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\stackofmacaron.592d88d2.jpg133611326748605231 0
 100C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\plugin\LICENSE133605050453818125 0
 96C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\plugin\src133605050454643144 1
 109C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\plugin\src\PluginAPI.js133605050454189776 0
@@ -5471,7 +5475,7 @@
 132C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-select\LICENSE133605051819785480 0
 137C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-select\package.json133605051825453518 0
 134C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-select\README.md133605051829124185 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\5.6f67e82f.jpeg133605265936703481 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\5.6f67e82f.jpeg133611326748219506 0
 148C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\attributes.d.ts.map133605051825832830 0
 139C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\compile.js133605051822153466 0
 141C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\general.d.ts133605051829964855 0
@@ -5673,7 +5677,7 @@
 153C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\media.js133605051834119316 0
 152C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\page.js133605051834634243 0
 147C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\create.js133605051828598099 0
-87C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.18dbc454.js133605265935800993 0
+87C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.18dbc454.js133611326747702505 0
 149C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\sequence.js133605051835118029 0
 145C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\error.js133605051831790507 0
 157C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic-an-plus-b.js133605051832288637 0
@@ -5992,18 +5996,18 @@
 87C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\.bin\svgo133605051839618379 0
 91C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\.bin\svgo.ps1133605051839618379 0
 105C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\node_modules\.bin\update-browserslist-db133605050496285068 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\1.09f450c9.jpeg133605265937109892 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\2.c474a6cf.jpeg133605265935820907 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\3.41a8d2fe.jpeg133605265936310359 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\4.d79b1a84.jpeg133605265935960531 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\1.09f450c9.jpeg133611326748526556 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\2.c474a6cf.jpeg133611326748286558 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\3.41a8d2fe.jpeg133611326748474087 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\4.d79b1a84.jpeg133611326748351472 0
 126C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\4550857_email_gmail_mail_sending_yahoo_icon.87a5f32b.png133598813479521063 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\7.9632532e.jpeg133605265936683530 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\8.2d844c97.jpeg133605265935820907 0
-85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\9.7c6f7d31.jpeg133605265937109892 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\7.9632532e.jpeg133611326748504494 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\8.2d844c97.jpeg133611326747873183 0
+85C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\9.7c6f7d31.jpeg133611326748219506 0
 90C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\Capture.34720c50.jpg133598813479431301 0
-91C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.18dbc454.js.map133605265936130812 0
+91C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.18dbc454.js.map133611326748341511 0
 100C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.18dbc454.js.map.38760.14133598771034154266 0
-92C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.34df27b5.css.map133605266177715262 0
+92C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\index.34df27b5.css.map133611389057461826 0
 91C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\linkedin.31919034.png133598813479531027 0
 90C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\Riley1.24536f69.jpeg133605055925709980 0
 90C:\Users\alexa\Desktop\OanaWantsCakeRebrand\ajinaeugen.github.io\dist\Riley2.99657e61.jpeg133605150207461728 0

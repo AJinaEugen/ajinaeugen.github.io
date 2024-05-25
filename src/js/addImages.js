@@ -29,9 +29,17 @@ function loadImages() {
 
   formatHtml = arrayulMeu.map((picture, index) => {
     if (index == 0) {
-      return `<img class="controlImages" src="${picture}" alt="">`;
+      return `<div class="imageView">
+    <div class="topOpacity"></div>
+      <img class="controlImages " src="${picture}" alt="">
+     <div class="bottomOpacity"></div>
+     </div>`;
     }
-    return `<img class="controlImages noShow"   src="${picture}" alt="">`;
+    return `<div class="imageView noShow">
+    <div class="topOpacity "></div>
+    <img class="controlImages "   src="${picture}" alt="">
+     <div class="bottomOpacity "></div>
+     </div>`;
   });
 
   return formatHtml.join("");
