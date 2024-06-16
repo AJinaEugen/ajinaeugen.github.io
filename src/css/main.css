@@ -25,20 +25,44 @@ body {
   position: absolute;
   background-color: rgb(243, 241, 238);
   background-image: url("../assets/stackofmacaron.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .mainContent {
   position: fixed;
   width: 100%;
   top: 0;
+  display: flex;
+  background-color: rgba(33, 30, 28, 0.6);
+  color: white;
+  flex-direction: row;
+}
+.title-flex {
+  flex: 4;
 }
 
+.comanda-button {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  flex: 1;
+
+  font-size: 25px;
+  cursor: pointer;
+}
+.icon {
+  padding-top: 20px;
+  height: 50px;
+}
 .title {
   padding-top: 60px;
   padding-bottom: 30px;
   text-align: center;
-  background-color: rgba(33, 30, 28, 0.6);
-  color: white;
+  padding-left: 70px;
+}
+
+.oana-wants-cake {
+  margin-left: 20%;
 }
 
 .space {
@@ -95,6 +119,32 @@ div.desc {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
+  }
+
+  .mainContent {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    background-color: rgba(33, 30, 28, 0.6);
+    color: white;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .comanda-button {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    flex: 1;
+  }
+
+  .oana-wants-cake {
+    text-align: center;
+    margin-right: 30px;
+  }
+  .title-flex {
+    align-content: center;
+    padding: 15px;
   }
 }
 
