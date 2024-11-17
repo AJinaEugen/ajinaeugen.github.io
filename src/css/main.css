@@ -107,12 +107,16 @@ a {
   text-align: center;
 }
 
-.home_social,
-.img {
+.home_social {
   flex: 1;
 }
 
+.img {
+  width: 30%;
+}
+
 .aj_image {
+  padding-left: 40px;
   height: 300px;
   width: auto;
   border-radius: 190 90 380;
@@ -121,7 +125,7 @@ a {
 .titlu,
 .subtitle {
   text-align: justify;
-  padding-left: 30%;
+
   font-size: 40px;
 }
 
@@ -133,7 +137,7 @@ a {
 
 .paragraf {
   margin-top: 20px;
-  padding-left: 30%;
+
   text-align: justify;
   font-size: 22px;
   word-spacing: normal;

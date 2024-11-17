@@ -105,19 +105,23 @@ a {
   display: flex;
 }
 
-.home_social, .img {
+.home_social {
   flex: 1;
+}
+
+.img {
+  width: 30%;
 }
 
 .aj_image {
   border-radius: 190px 90px 380px;
   width: auto;
   height: 300px;
+  padding-left: 40px;
 }
 
 .titlu, .subtitle {
   text-align: justify;
-  padding-left: 30%;
   font-size: 40px;
 }
 
@@ -132,7 +136,6 @@ a {
   word-spacing: normal;
   letter-spacing: normal;
   margin-top: 20px;
-  padding-left: 30%;
   font-size: 22px;
 }
 
