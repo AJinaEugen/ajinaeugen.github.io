@@ -1,6 +1,13 @@
 [
   {
     "Position": "QA engineer",
+    "Employer": "Reshape Digiral",
+    "Description": "This position was more technical than the last one. From queying the DB to analysing network call more efficiently, this position has really boosted  my tehnical knowledge",
+    "date": "2024 Jan - Present "
+  },
+
+  {
+    "Position": "QA engineer",
     "Employer": "Linnify",
     "Description": "A pivotal moment in my career. I learned here most of my hard-skills. Working in a team and growing were amazing benefits.",
     "date": "2022 Aug - 2023 Nov "
