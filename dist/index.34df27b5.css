@@ -92,6 +92,12 @@ a {
   margin-top: 60%;
 }
 
+.social_icons {
+  padding-left: 8%;
+  list-style: none;
+  position: fixed;
+}
+
 .linkedin, .facebook, .email {
   cursor: pointer;
   margin-top: 10px;
@@ -304,6 +310,21 @@ a {
 
 h3 {
   margin-top: 5%;
+}
+
+.scroll_down_icon {
+  width: auto;
+  position: fixed;
+  bottom: 10%;
+  right: 15%;
+}
+
+.imgdown {
+  width: 50px;
+}
+
+.imgdownhide {
+  width: 0;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */

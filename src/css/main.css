@@ -92,6 +92,12 @@ a {
   margin-top: 60%;
 }
 
+.social_icons {
+  position: fixed;
+  padding-left: 8%;
+  list-style: none;
+}
+
 .linkedin,
 .facebook,
 .email {
@@ -317,4 +323,19 @@ p {
 
 h3 {
   margin-top: 5%;
+}
+
+.scroll_down_icon {
+  position: fixed;
+  right: 15%;
+  bottom: 10%;
+  width: auto;
+}
+
+.imgdown {
+  width: 50px;
+}
+
+.imgdownhide {
+  width: 0px;
 }
