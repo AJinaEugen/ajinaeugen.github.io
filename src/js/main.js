@@ -54,7 +54,6 @@ function addSkills() {
 
 function hideElement(element) {
   if (window.scrollY !== 0) {
-    console.log($(element));
     $(element).style.display = "none";
   } else {
     $(element).style.display = "block";
