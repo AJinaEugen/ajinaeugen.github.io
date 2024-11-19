@@ -62,7 +62,6 @@ function hideElement(element) {
 }
 
 window.addEventListener("scroll", (event) => {
-  console.log(window.scrollY);
   hideElement(".imgdown");
 });
 

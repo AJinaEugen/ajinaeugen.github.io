@@ -622,7 +622,6 @@ function hideElement(element) {
     } else $(element).style.display = "block";
 }
 window.addEventListener("scroll", (event)=>{
-    console.log(window.scrollY);
     hideElement(".imgdown");
 });
 addExperience();
