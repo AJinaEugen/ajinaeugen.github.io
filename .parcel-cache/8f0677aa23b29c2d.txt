@@ -1,6 +1,6 @@
 40
 36C:\Users\alexa\Desktop\newCV\.github133763427599547567 1
-33C:\Users\alexa\Desktop\newCV\dist133765114770872716 1
+33C:\Users\alexa\Desktop\newCV\dist133765116730315998 1
 32C:\Users\alexa\Desktop\newCV\src133763427610643309 1
 41C:\Users\alexa\Desktop\newCV\node_modules133763427608798702 1
 56C:\Users\alexa\Desktop\newCV\dist\index.34df27b5.css.map133765114770582987 0
@@ -10,7 +10,7 @@
 39C:\Users\alexa\Desktop\newCV\src\assets133765044061689108 1
 36C:\Users\alexa\Desktop\newCV\src\css133763427610503775 1
 48C:\Users\alexa\Desktop\newCV\src\experience.json133763452494868622 0
-43C:\Users\alexa\Desktop\newCV\src\index.html133765104834896465 0
+43C:\Users\alexa\Desktop\newCV\src\index.html133765116572024882 0
 35C:\Users\alexa\Desktop\newCV\src\js133763427610927035 1
 97C:\Users\alexa\Desktop\newCV\dist\1564528_fly_messager_send_communication_email_icon.d20fe8d8.png133765114769421296 0
 44C:\Users\alexa\Desktop\newCV\src\skills.json133763452474425337 0
@@ -36,6 +36,6 @@
 64C:\Users\alexa\Desktop\newCV\dist\index.18dbc454.js.map.38760.14133456352293567359 0
 52C:\Users\alexa\Desktop\newCV\dist\index.34df27b5.css133765114770415994 0
 57C:\Users\alexa\Desktop\newCV\.github\workflows\static.yml133450749138800245 0
-44C:\Users\alexa\Desktop\newCV\dist\index.html133765114770862734 0
+44C:\Users\alexa\Desktop\newCV\dist\index.html133765116730296349 0
 55C:\Users\alexa\Desktop\newCV\dist\linkedin.31919034.png133765114769421296 0
 46C:\Users\alexa\Desktop\newCV\.github\workflows133763427599692293 1
